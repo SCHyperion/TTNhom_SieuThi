@@ -4,7 +4,7 @@
 	(thêm sản phẩm dựa vào thông tin trong hóa đơn nhập)
 	+ Tìm kiếm sản phẩm theo (1.tên 2.giá)
 
-2. Chức năng quản lý Khách hàng:								2.(người làm)
+2. Chức năng quản lý Khách hàng:								2.(Thành)
 	+ Hiển thị danh sách thông tin khách hàng (thêm+sửa+xóa)
 	+ Tìm kiếm khách hàng theo (1.tên 2.mã KH)
 
