@@ -13,7 +13,7 @@
 	+ Tìm kiếm nhân viên theo (1.tên 2.lương)
 
 4. Chức năng Thống kê:
-	4.1. 	Số sản phẩm bán được trong (1.1 ngày 2.giữa 2 thời gian)			4.(người làm)
+	4.1. 	Số sản phẩm bán được trong (1.1 ngày 2.giữa 2 thời gian)			4.(Huy Quang)
 		Chức năng hiển thị danh sách thông tin về hóa đơn (bán + nhập)
 	4.2.	Doanh thu bán được trong (1.1 ngày 2.giữa 2 thời gian)				5.(người làm)
 
