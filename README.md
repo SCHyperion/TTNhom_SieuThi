@@ -1,2 +1,2 @@
 # TTNhom_SieuThi
-Xây dựng phần mềm bán hàng cho siêu thị
+DEADLINE là cuối thứ 4 tuần sau nhé
