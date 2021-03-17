@@ -15,7 +15,7 @@
 4. Chức năng Thống kê:
 	4.1. 	Số sản phẩm bán được trong (1.1 ngày 2.giữa 2 thời gian)			4.(Huy Quang)
 		Chức năng hiển thị danh sách thông tin về hóa đơn (bán + nhập)
-	4.2.	Doanh thu bán được trong (1.1 ngày 2.giữa 2 thời gian)				5.(người làm)
+	4.2.	Doanh thu bán được trong (1.1 ngày 2.giữa 2 thời gian)				5.(Sơn)
 
 5. Chức năng về hóa đơn:									6.(Quang Anh)
 	+ Tạo ra hóa đơn nhập + bán
