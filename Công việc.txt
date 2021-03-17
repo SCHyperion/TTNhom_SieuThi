@@ -8,7 +8,7 @@
 	+ Hiển thị danh sách thông tin khách hàng (thêm+sửa+xóa)
 	+ Tìm kiếm khách hàng theo (1.tên 2.mã KH)
 
-3. Chức năng quản lý Nhân viên:									3.(người làm)
+3. Chức năng quản lý Nhân viên:									3.(Hoang Anh)
 	+ Hiển thị danh sách thông tin nhân viên (thêm+sửa+xóa)
 	+ Tìm kiếm nhân viên theo (1.tên 2.lương)
 
