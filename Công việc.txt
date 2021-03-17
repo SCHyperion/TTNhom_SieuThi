@@ -1,0 +1,24 @@
+﻿
+1. Chức năng quản lý Sản phẩm:									1.(người làm)
+	+ Hiển thị danh sách thông tin sản phẩm (thêm+sửa+xóa)
+	(thêm sản phẩm dựa vào thông tin trong hóa đơn nhập)
+	+ Tìm kiếm sản phẩm theo (1.tên 2.giá)
+
+2. Chức năng quản lý Khách hàng:								2.(người làm)
+	+ Hiển thị danh sách thông tin khách hàng (thêm+sửa+xóa)
+	+ Tìm kiếm khách hàng theo (1.tên 2.mã KH)
+
+3. Chức năng quản lý Nhân viên:									3.(người làm)
+	+ Hiển thị danh sách thông tin nhân viên (thêm+sửa+xóa)
+	+ Tìm kiếm nhân viên theo (1.tên 2.lương)
+
+4. Chức năng Thống kê:
+	4.1. 	Số sản phẩm bán được trong (1.1 ngày 2.giữa 2 thời gian)			4.(người làm)
+		Chức năng hiển thị danh sách thông tin về hóa đơn (bán + nhập)
+	4.2.	Doanh thu bán được trong (1.1 ngày 2.giữa 2 thời gian)				5.(người làm)
+
+5. Chức năng về hóa đơn:									6.(người làm)
+	+ Tạo ra hóa đơn nhập + bán
+	+ Dùng hóa đơn nhập bán để cập nhật số hàng tồn
+
+6. Hướng dẫn sử dụng (Thịnh làm nha)
