@@ -1,7 +1,7 @@
 ﻿
 1. Chức năng quản lý Sản phẩm:									1.(người làm)
 	+ Hiển thị danh sách thông tin sản phẩm (thêm+sửa+xóa)
-	(thêm sản phẩm dựa vào thông tin trong hóa đơn nhập)
+	(thêm sản phẩm chỉ thêm sản phẩm mới thôi)
 	+ Tìm kiếm sản phẩm theo (1.tên 2.giá)
 
 2. Chức năng quản lý Khách hàng:								2.(Thành)
