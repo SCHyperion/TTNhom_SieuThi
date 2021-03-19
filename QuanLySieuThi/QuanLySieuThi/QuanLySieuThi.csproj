@@ -47,19 +47,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConnectionString.cs" />
-<<<<<<< HEAD
     <Compile Include="FormDoanhThuBan.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormDoanhThuBan.Designer.cs">
       <DependentUpon>FormDoanhThuBan.cs</DependentUpon>
-=======
+	</Compile>
     <Compile Include="fNhanVien.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="fNhanVien.Designer.cs">
       <DependentUpon>fNhanVien.cs</DependentUpon>
->>>>>>> b9b4ae00573e61cbff1634791ec3caa69b91fda2
     </Compile>
     <Compile Include="FormMain.cs">
       <SubType>Form</SubType>
@@ -81,13 +79,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-<<<<<<< HEAD
     <EmbeddedResource Include="FormDoanhThuBan.resx">
       <DependentUpon>FormDoanhThuBan.cs</DependentUpon>
-=======
+	</EmbeddedResource>
     <EmbeddedResource Include="fNhanVien.resx">
       <DependentUpon>fNhanVien.cs</DependentUpon>
->>>>>>> b9b4ae00573e61cbff1634791ec3caa69b91fda2
     </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
