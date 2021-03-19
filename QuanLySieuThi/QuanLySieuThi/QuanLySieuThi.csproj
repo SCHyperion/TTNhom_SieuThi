@@ -47,6 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConnectionString.cs" />
+    <Compile Include="fNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fNhanVien.Designer.cs">
+      <DependentUpon>fNhanVien.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,6 +73,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="fNhanVien.resx">
+      <DependentUpon>fNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
     </EmbeddedResource>
