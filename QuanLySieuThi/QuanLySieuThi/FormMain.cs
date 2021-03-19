@@ -16,5 +16,11 @@ namespace QuanLySieuThi
         {
             InitializeComponent();
         }
+
+        private void nhânViênToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            fNhanVien nv = new fNhanVien();
+            nv.Show();
+        }
     }
 }
