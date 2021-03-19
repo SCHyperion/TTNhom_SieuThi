@@ -20,6 +20,7 @@ D:\TTNhom\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.csp
 D:\TTNhom\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.exe
 D:\TTNhom\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.pdb
 D:\TTNhom\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.Help.resources
+<<<<<<< HEAD
 D:\Kì 2 năm 3\Thức tập nhóm\BaiTT3\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\bin\Debug\QuanLySieuThi.exe.config
 D:\Kì 2 năm 3\Thức tập nhóm\BaiTT3\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\bin\Debug\QuanLySieuThi.exe
 D:\Kì 2 năm 3\Thức tập nhóm\BaiTT3\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\bin\Debug\QuanLySieuThi.pdb
@@ -33,3 +34,18 @@ D:\Kì 2 năm 3\Thức tập nhóm\BaiTT3\TTNhom_SieuThi\QuanLySieuThi\QuanLySie
 D:\Kì 2 năm 3\Thức tập nhóm\BaiTT3\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.exe
 D:\Kì 2 năm 3\Thức tập nhóm\BaiTT3\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.pdb
 D:\Kì 2 năm 3\Thức tập nhóm\BaiTT3\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.FormDoanhThuBan.resources
+=======
+C:\Users\huyho\OneDrive\Desktop\TT Nhóm QLST\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\bin\Debug\QuanLySieuThi.exe.config
+C:\Users\huyho\OneDrive\Desktop\TT Nhóm QLST\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\bin\Debug\QuanLySieuThi.exe
+C:\Users\huyho\OneDrive\Desktop\TT Nhóm QLST\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\bin\Debug\QuanLySieuThi.pdb
+C:\Users\huyho\OneDrive\Desktop\TT Nhóm QLST\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.csprojAssemblyReference.cache
+C:\Users\huyho\OneDrive\Desktop\TT Nhóm QLST\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.fNhanVien.resources
+C:\Users\huyho\OneDrive\Desktop\TT Nhóm QLST\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.FormMain.resources
+C:\Users\huyho\OneDrive\Desktop\TT Nhóm QLST\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.Help.resources
+C:\Users\huyho\OneDrive\Desktop\TT Nhóm QLST\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.Login.resources
+C:\Users\huyho\OneDrive\Desktop\TT Nhóm QLST\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.Properties.Resources.resources
+C:\Users\huyho\OneDrive\Desktop\TT Nhóm QLST\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.csproj.GenerateResource.cache
+C:\Users\huyho\OneDrive\Desktop\TT Nhóm QLST\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.csproj.CoreCompileInputs.cache
+C:\Users\huyho\OneDrive\Desktop\TT Nhóm QLST\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.exe
+C:\Users\huyho\OneDrive\Desktop\TT Nhóm QLST\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.pdb
+>>>>>>> b9b4ae00573e61cbff1634791ec3caa69b91fda2
