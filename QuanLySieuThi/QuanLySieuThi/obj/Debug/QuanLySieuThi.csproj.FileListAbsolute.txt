@@ -11,3 +11,4 @@ D:\Kì 2 năm 3\Thức tập nhóm\BaiTT3\TTNhom_SieuThi\QuanLySieuThi\QuanLySie
 D:\Kì 2 năm 3\Thức tập nhóm\BaiTT3\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.csproj.CoreCompileInputs.cache
 D:\Kì 2 năm 3\Thức tập nhóm\BaiTT3\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.exe
 D:\Kì 2 năm 3\Thức tập nhóm\BaiTT3\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.pdb
+D:\Kì 2 năm 3\Thức tập nhóm\BaiTT3\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.csprojAssemblyReference.cache
