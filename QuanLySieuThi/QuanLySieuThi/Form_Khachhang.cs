@@ -121,10 +121,41 @@ namespace QuanLySieuThi
             }
         }
 
+
+
         private void button5_Click(object sender, EventArgs e)
         {
-            Form_timkiemkh Form_timkiemkh = new Form_timkiemkh();
-            Form_timkiemkh.Show();
+            if(textBox_info.Text=="")
+            {
+                MessageBox.Show("Chưa nhập thông tin tìm kiếm", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            } 
+            else
+            {
+                if(radioButton_makh.Checked==true)
+                { 
+                    using (SqlConnection sqlcon = new SqlConnection(ConnectionString.str))
+                    {
+                        sqlcon.Open();
+                        SqlDataAdapter sqlData = new SqlDataAdapter("Select makh as N'Mã khách hàng', tenkh as N'Tên khách hàng', diachi as N'Địa chỉ', sodt as N'Số điện thoại' from KhachHang where makh like '%" + textBox_info.Text + "%'", sqlcon);
+                        DataTable dataTable = new DataTable();
+                        sqlData.Fill(dataTable);
+                        dataGridView_khachhang.DataSource = dataTable;
+                    }
+                }
+                else if(radioButton_ten.Checked==true)
+                {
+                    using (SqlConnection sqlcon = new SqlConnection(ConnectionString.str))
+                    {
+                        sqlcon.Open();
+                        SqlDataAdapter sqlData = new SqlDataAdapter("Select makh as N'Mã khách hàng', tenkh as N'Tên khách hàng', diachi as N'Địa chỉ', sodt as N'Số điện thoại' from KhachHang where tenkh like N'%" + textBox_info.Text+"%'", sqlcon);
+                        DataTable dataTable = new DataTable();
+                        sqlData.Fill(dataTable);
+                        dataGridView_khachhang.DataSource = dataTable;
+                    }
+                }
+                int count = dataGridView_khachhang.Rows.Count -1;
+                MessageBox.Show("Tìm thấy " + count + " kết quả", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }    
         }
 
         public static void InfoMessageHandler(object mySender, SqlInfoMessageEventArgs myEvent)
@@ -196,9 +227,11 @@ namespace QuanLySieuThi
 
         }
 
-        protected void timkiem(object sender, EventArgs e)
-        {
-            if(Form_timkiemkh.)
-        }
+        //protected event timkiem(object sender, EventArgs e)
+        //{
+        //    if(Form_timkiemkh.)
+        //}
+        //Form_timkiemkh.ButtonTimkiemClicked +=
+
     }
 }

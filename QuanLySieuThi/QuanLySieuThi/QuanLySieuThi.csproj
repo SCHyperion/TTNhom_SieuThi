@@ -71,12 +71,6 @@
     <Compile Include="Form_Khachhang.Designer.cs">
       <DependentUpon>Form_Khachhang.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form_timkiemkh.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form_timkiemkh.Designer.cs">
-      <DependentUpon>Form_timkiemkh.cs</DependentUpon>
-    </Compile>
     <Compile Include="Help.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,9 +102,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Khachhang.resx">
       <DependentUpon>Form_Khachhang.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form_timkiemkh.resx">
-      <DependentUpon>Form_timkiemkh.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Help.resx">
       <DependentUpon>Help.cs</DependentUpon>
