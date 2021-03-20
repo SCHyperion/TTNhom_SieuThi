@@ -1,7 +1,8 @@
-Form sử dụng 4 button Cập Nhật, Thêm, Sửa, Xóa để thao tác với bảng Khách Hàng trong cơ sở dữ liệu
+Form sử dụng 5 button Cập Nhật, Thêm, Sửa, Xóa, Tìm kiếm để thao tác với bảng Khách Hàng trong cơ sở dữ liệu
 Với button Thêm, Sửa, Xóa yêu cầu người dùng nhập đủ dữ liệu cho các trường.
 Với trường thông tin mã khách hàng yêu cầu nhập dãy số tối đa 5 ký tự, lớn hơn 0 nhỏ hơn 32000,
 không được trùng lặp với mã đã có trong CSDL hay bỏ trống cũng như xuất hiện ký tự nằm ngoài 0-9.
 Trường số điện thoại yêu cầu dãy số tối thiểu 10 ký tự, không được bỏ trống cũng như xuất hiện ký tự nằm ngoài 0-9
 Bắt buộc nhập Tên khách hàng khi tạo mới thông tin khách hàng
 Bắt buộc nhập đầy đủ các trường thông tin khi sử dụng chức năng sửa hoặc xóa
+Nhập thông tin vào trường Thông tin, chọn radio button điều kiện trong label Tìm kiếm rồi nhấn button Tìm kiếm để tìm
