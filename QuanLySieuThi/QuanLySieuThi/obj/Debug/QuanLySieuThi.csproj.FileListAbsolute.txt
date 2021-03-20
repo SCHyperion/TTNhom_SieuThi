@@ -57,3 +57,4 @@ C:\Users\LOCALBOI\source\repos\SCHyperion\TTNhom_SieuThi\QuanLySieuThi\QuanLySie
 C:\Users\LOCALBOI\source\repos\SCHyperion\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.csproj.CoreCompileInputs.cache
 C:\Users\LOCALBOI\source\repos\SCHyperion\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.exe
 C:\Users\LOCALBOI\source\repos\SCHyperion\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.pdb
+C:\Users\LOCALBOI\source\repos\SCHyperion\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.Form_timkiemkh.resources

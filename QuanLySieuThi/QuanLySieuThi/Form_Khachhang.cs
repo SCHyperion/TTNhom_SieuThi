@@ -121,6 +121,12 @@ namespace QuanLySieuThi
             }
         }
 
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form_timkiemkh Form_timkiemkh = new Form_timkiemkh();
+            Form_timkiemkh.Show();
+        }
+
         public static void InfoMessageHandler(object mySender, SqlInfoMessageEventArgs myEvent)
         {
             MessageBox.Show(myEvent.Message);
@@ -188,6 +194,11 @@ namespace QuanLySieuThi
                 }
             }
 
+        }
+
+        protected void timkiem(object sender, EventArgs e)
+        {
+            if(Form_timkiemkh.)
         }
     }
 }
