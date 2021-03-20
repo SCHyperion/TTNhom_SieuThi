@@ -100,6 +100,7 @@ namespace QuanLySieuThi
         private void btnXemNV_Click(object sender, EventArgs e)
         {
             string query = "select * from NhanVien";
+            dtgvNV.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dtgvNV.DataSource = ExecuteQuery(query);
         }
 
