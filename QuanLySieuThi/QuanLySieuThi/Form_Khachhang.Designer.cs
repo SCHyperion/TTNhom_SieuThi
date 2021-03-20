@@ -92,6 +92,7 @@ namespace QuanLySieuThi
             this.button5.Size = new System.Drawing.Size(218, 60);
             this.button5.TabIndex = 18;
             this.button5.Text = "Tìm Kiếm Khách hàng";
+            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
@@ -105,6 +106,7 @@ namespace QuanLySieuThi
             this.button4.Size = new System.Drawing.Size(218, 60);
             this.button4.TabIndex = 17;
             this.button4.Text = "Sửa thông tin";
+            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
@@ -118,6 +120,7 @@ namespace QuanLySieuThi
             this.button3.Size = new System.Drawing.Size(218, 60);
             this.button3.TabIndex = 16;
             this.button3.Text = "Xóa Khách hàng";
+            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
@@ -131,6 +134,7 @@ namespace QuanLySieuThi
             this.button2.Size = new System.Drawing.Size(218, 60);
             this.button2.TabIndex = 15;
             this.button2.Text = "Thêm Khách hàng";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -144,6 +148,7 @@ namespace QuanLySieuThi
             this.button1.Size = new System.Drawing.Size(218, 60);
             this.button1.TabIndex = 14;
             this.button1.Text = "Cập Nhật";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
