@@ -29,8 +29,6 @@ namespace QuanLySieuThi
             treeview_All.Nodes["Product"].Nodes.Add("Tìm kiếm sản phẩm");
 
             treeview_All.Nodes.Add("Customer", "Khách hàng");
-            treeview_All.Nodes["Customer"].Nodes.Add("Danh sách khách hàng");
-            treeview_All.Nodes["Customer"].Nodes.Add("Tìm kiếm khách hàng");
 
             treeview_All.Nodes.Add("Employee", "Nhân viên");
 
@@ -46,17 +44,104 @@ namespace QuanLySieuThi
         {
             switch (e.Node.Text)
             {
-                case "Thông tin tài khoản":
+                case "Thông tin tài khoản":             // done
                     {
                         richtextbox_Display.ReadOnly = false;
-                        richtextbox_Display.Text = File.ReadAllText(@"Help\test.txt");
-                        Clipboard.SetImage(Image.FromFile(@"Help\test.jpg"));
+                        richtextbox_Display.Text = File.ReadAllText(@"Help\TaiKhoan.txt");
+                        Clipboard.SetImage(Image.FromFile(@"Help\TaiKhoan.jpg"));
                         richtextbox_Display.AppendText("\n");
                         richtextbox_Display.Paste();
                         richtextbox_Display.ReadOnly = true;
                         break;
                     }
-                case "Đăng xuất":
+                case "Đăng xuất":                       // done
+                    {
+                        richtextbox_Display.ReadOnly = false;
+                        richtextbox_Display.Text = File.ReadAllText(@"Help\DangXuat.txt");
+                        richtextbox_Display.ReadOnly = true;
+                        break;
+                    }
+                case "Danh sách sản phẩm":
+                    {
+                        richtextbox_Display.ReadOnly = false;
+                        richtextbox_Display.Text = File.ReadAllText(@"Help\test2.txt");
+                        Clipboard.SetImage(Image.FromFile(@"Help\test2.jpg"));
+                        richtextbox_Display.AppendText("\n");
+                        richtextbox_Display.Paste();
+                        richtextbox_Display.ReadOnly = true;
+                        break;
+                    }
+                case "Tìm kiếm sản phẩm":
+                    {
+                        richtextbox_Display.ReadOnly = false;
+                        richtextbox_Display.Text = File.ReadAllText(@"Help\test2.txt");
+                        Clipboard.SetImage(Image.FromFile(@"Help\test2.jpg"));
+                        richtextbox_Display.AppendText("\n");
+                        richtextbox_Display.Paste();
+                        richtextbox_Display.ReadOnly = true;
+                        break;
+                    }
+                case "Khách hàng":                      // done
+                    {
+                        richtextbox_Display.ReadOnly = false;
+                        richtextbox_Display.Text = File.ReadAllText(@"Help\KhachHang.txt");
+                        Clipboard.SetImage(Image.FromFile(@"Help\KhachHang.jpg"));
+                        richtextbox_Display.AppendText("\n");
+                        richtextbox_Display.Paste();
+                        richtextbox_Display.ReadOnly = true;
+                        break;
+                    }
+                case "Nhân viên":
+                    {
+                        richtextbox_Display.ReadOnly = false;
+                        richtextbox_Display.Text = File.ReadAllText(@"Help\test2.txt");
+                        Clipboard.SetImage(Image.FromFile(@"Help\test2.jpg"));
+                        richtextbox_Display.AppendText("\n");
+                        richtextbox_Display.Paste();
+                        richtextbox_Display.ReadOnly = true;
+                        break;
+                    }
+                case "Số sản phẩm bán được":            // done
+                    {
+                        richtextbox_Display.ReadOnly = false;
+                        richtextbox_Display.Text = File.ReadAllText(@"Help\SoSP_Ngay.txt");
+                        Clipboard.SetImage(Image.FromFile(@"Help\SoSP_Ngay.jpg"));
+                        richtextbox_Display.AppendText("\n");
+                        richtextbox_Display.Paste();
+                        richtextbox_Display.AppendText("\n");
+                        richtextbox_Display.AppendText(File.ReadAllText(@"Help\SoSP_TG.txt"));
+                        Clipboard.SetImage(Image.FromFile(@"Help\SoSP_TG.jpg"));
+                        richtextbox_Display.AppendText("\n");
+                        richtextbox_Display.Paste();
+                        richtextbox_Display.ReadOnly = true;
+                        break;
+                    }
+                case "Doanh thu":
+                    {
+                        richtextbox_Display.ReadOnly = false;
+                        richtextbox_Display.Text = File.ReadAllText(@"Help\test2.txt");
+                        Clipboard.SetImage(Image.FromFile(@"Help\test2.jpg"));
+                        richtextbox_Display.AppendText("\n");
+                        richtextbox_Display.Paste();
+                        richtextbox_Display.ReadOnly = true;
+                        break;
+                    }
+                case "Danh sách hóa đơn":               // done
+                    {
+                        richtextbox_Display.ReadOnly = false;
+                        richtextbox_Display.Text = File.ReadAllText(@"Help\HDBan.txt");
+                        Clipboard.SetImage(Image.FromFile(@"Help\HDBan.jpg"));
+                        richtextbox_Display.AppendText("\n");
+                        richtextbox_Display.Paste();
+                        richtextbox_Display.AppendText("\n");
+                        richtextbox_Display.AppendText(File.ReadAllText(@"Help\HDNhap.txt"));
+                        Clipboard.SetImage(Image.FromFile(@"Help\HDNhap.jpg"));
+                        richtextbox_Display.AppendText("\n");
+                        richtextbox_Display.Paste();
+                        richtextbox_Display.ReadOnly = true;
+                        break;
+                    }
+                case "Nhập hàng":
                     {
                         richtextbox_Display.ReadOnly = false;
                         richtextbox_Display.Text = File.ReadAllText(@"Help\test2.txt");

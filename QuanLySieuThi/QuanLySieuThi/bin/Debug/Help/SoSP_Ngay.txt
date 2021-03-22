@@ -1,0 +1,4 @@
+﻿
+Form thống kê thực hiện 2 chức năng thống kê sản phẩm theo ngày và thống kê sản phẩm trong 1 khoảng thời gian
+
+Thống kê sản phẩm trong ngày: cần nhập chính xác ngày cần thống kê sản phẩm vào ô text theo định dạng yyyy-mm-dd sau đó nhấn nút Thống kê, danh sách các mặt hàng được mua trong ngày sẽ hiện thị trong bảng Danh sách mặt hàng

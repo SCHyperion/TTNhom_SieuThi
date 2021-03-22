@@ -1,0 +1,2 @@
+﻿
+Form hóa đơn nhập cũng có chức năng hiển thị các thông tin cơ bản và chi tiết của hóa đơn nhập tương tự như hóa đơn bán

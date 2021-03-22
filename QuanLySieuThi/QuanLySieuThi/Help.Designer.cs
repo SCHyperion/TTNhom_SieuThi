@@ -48,9 +48,11 @@
             this.richtextbox_Display.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richtextbox_Display.Location = new System.Drawing.Point(238, 0);
             this.richtextbox_Display.Name = "richtextbox_Display";
+            this.richtextbox_Display.ReadOnly = true;
             this.richtextbox_Display.Size = new System.Drawing.Size(638, 540);
             this.richtextbox_Display.TabIndex = 1;
             this.richtextbox_Display.Text = "";
+            this.richtextbox_Display.ZoomFactor = 1.5F;
             // 
             // Help
             // 

@@ -1,0 +1,2 @@
+﻿
+Chức năng này cho phép người dùng đăng xuất ra khỏi tài khoản hiện tại và trả người dùng về giao diện đăng nhập để người dùng có thể đăng nhập lại bằng 1 tài khoản khác.

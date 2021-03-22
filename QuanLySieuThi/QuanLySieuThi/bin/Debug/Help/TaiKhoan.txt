@@ -1,0 +1,6 @@
+﻿
+Chức năng này sẽ hiển thị toàn bộ thông tin chi tiết của nhân viên ứng với tài khoản hiện đang được đăng nhập.
+
+Nút "Sửa thông tin" cho phép người dùng chuyển sang chế độ có thể sửa đổi để người dùng có thể thay đổi thông tin cá nhân khi cần.
+
+Khi sửa xong thông tin, bấm nút "Ghi nhận" để hoàn thành việc cập nhật thông tin cá nhân của tài khoản.
