@@ -60,6 +60,7 @@
             this.Controls.Add(this.richtextbox_Display);
             this.Controls.Add(this.treeview_All);
             this.Name = "Help";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Help";
             this.Load += new System.EventHandler(this.Help_Load);
             this.ResumeLayout(false);

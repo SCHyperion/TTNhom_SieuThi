@@ -170,7 +170,7 @@ namespace QuanLySieuThi
             this.radioButton_makh.AutoSize = true;
             this.radioButton_makh.Location = new System.Drawing.Point(141, 21);
             this.radioButton_makh.Name = "radioButton_makh";
-            this.radioButton_makh.Size = new System.Drawing.Size(132, 22);
+            this.radioButton_makh.Size = new System.Drawing.Size(112, 19);
             this.radioButton_makh.TabIndex = 4;
             this.radioButton_makh.TabStop = true;
             this.radioButton_makh.Text = "Mã Khách hàng";
@@ -182,7 +182,7 @@ namespace QuanLySieuThi
             this.radioButton_ten.Checked = true;
             this.radioButton_ten.Location = new System.Drawing.Point(6, 21);
             this.radioButton_ten.Name = "radioButton_ten";
-            this.radioButton_ten.Size = new System.Drawing.Size(136, 22);
+            this.radioButton_ten.Size = new System.Drawing.Size(115, 19);
             this.radioButton_ten.TabIndex = 3;
             this.radioButton_ten.TabStop = true;
             this.radioButton_ten.Text = "Tên Khách hàng";
@@ -204,7 +204,7 @@ namespace QuanLySieuThi
             this.textBox_info.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_info.Location = new System.Drawing.Point(16, 21);
             this.textBox_info.Name = "textBox_info";
-            this.textBox_info.Size = new System.Drawing.Size(280, 27);
+            this.textBox_info.Size = new System.Drawing.Size(280, 23);
             this.textBox_info.TabIndex = 12;
             // 
             // groupBox3
@@ -240,7 +240,7 @@ namespace QuanLySieuThi
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(575, 57);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(57, 18);
+            this.label4.Size = new System.Drawing.Size(48, 15);
             this.label4.TabIndex = 24;
             this.label4.Text = "Địa chỉ:";
             // 
@@ -249,7 +249,7 @@ namespace QuanLySieuThi
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(311, 122);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(98, 18);
+            this.label3.Size = new System.Drawing.Size(82, 15);
             this.label3.TabIndex = 23;
             this.label3.Text = "Số điện thoại:";
             // 
@@ -258,7 +258,7 @@ namespace QuanLySieuThi
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(33, 122);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(113, 18);
+            this.label2.Size = new System.Drawing.Size(95, 15);
             this.label2.TabIndex = 22;
             this.label2.Text = "Mã khách hàng:";
             // 
@@ -267,7 +267,7 @@ namespace QuanLySieuThi
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(78, 57);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(117, 18);
+            this.label1.Size = new System.Drawing.Size(98, 15);
             this.label1.TabIndex = 21;
             this.label1.Text = "Tên khách hàng:";
             // 
@@ -276,7 +276,7 @@ namespace QuanLySieuThi
             this.textBox_sdt.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_sdt.Location = new System.Drawing.Point(425, 115);
             this.textBox_sdt.Name = "textBox_sdt";
-            this.textBox_sdt.Size = new System.Drawing.Size(191, 27);
+            this.textBox_sdt.Size = new System.Drawing.Size(191, 23);
             this.textBox_sdt.TabIndex = 20;
             // 
             // textBox_diachi
@@ -293,7 +293,7 @@ namespace QuanLySieuThi
             this.textBox_tenkh.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_tenkh.Location = new System.Drawing.Point(226, 50);
             this.textBox_tenkh.Name = "textBox_tenkh";
-            this.textBox_tenkh.Size = new System.Drawing.Size(280, 27);
+            this.textBox_tenkh.Size = new System.Drawing.Size(280, 23);
             this.textBox_tenkh.TabIndex = 18;
             // 
             // textBox_makh
@@ -301,12 +301,12 @@ namespace QuanLySieuThi
             this.textBox_makh.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_makh.Location = new System.Drawing.Point(163, 115);
             this.textBox_makh.Name = "textBox_makh";
-            this.textBox_makh.Size = new System.Drawing.Size(132, 27);
+            this.textBox_makh.Size = new System.Drawing.Size(132, 23);
             this.textBox_makh.TabIndex = 17;
             // 
             // Form_Khachhang
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(1281, 689);
@@ -319,6 +319,7 @@ namespace QuanLySieuThi
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form_Khachhang";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quản lý thông tin khách hàng";
             this.Load += new System.EventHandler(this.Form_Khachhang_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_khachhang)).EndInit();

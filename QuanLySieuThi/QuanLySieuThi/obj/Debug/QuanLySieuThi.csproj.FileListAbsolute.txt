@@ -75,3 +75,6 @@ G:\Thực tập nhóm\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanL
 G:\Thực tập nhóm\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.exe
 G:\Thực tập nhóm\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.pdb
 G:\Thực tập nhóm\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.frmHoaDon.resources
+D:\TTNhom\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.Form_Khachhang.resources
+D:\TTNhom\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.frmHoaDon.resources
+D:\TTNhom\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.frmThongKe.resources
