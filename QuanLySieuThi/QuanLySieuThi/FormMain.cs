@@ -82,5 +82,11 @@ namespace QuanLySieuThi
             Form_Khachhang kh = new Form_Khachhang();
             kh.Show();
         }
+
+        private void sảnPhẩmToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frm_MatHang mh = new frm_MatHang();
+            mh.Show();
+        }
     }
 }

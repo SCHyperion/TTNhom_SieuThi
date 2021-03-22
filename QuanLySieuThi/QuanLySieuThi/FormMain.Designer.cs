@@ -35,10 +35,6 @@
             this.MenuItem_Logout = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuItem_Exit = new System.Windows.Forms.ToolStripMenuItem();
             this.sảnPhẩmToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.MenuItem_AllSP = new System.Windows.Forms.ToolStripMenuItem();
-            this.MenuItem_SearchSP = new System.Windows.Forms.ToolStripMenuItem();
-            this.MenuItem_SearchSP_Name = new System.Windows.Forms.ToolStripMenuItem();
-            this.MenuItem_SearchSP_Price = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuItem_Customer = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuItem_Employee = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuItem_Stat = new System.Windows.Forms.ToolStripMenuItem();
@@ -76,70 +72,41 @@
             this.MenuItem_Logout,
             this.MenuItem_Exit});
             this.hệThốngToolStripMenuItem.Name = "hệThốngToolStripMenuItem";
-            this.hệThốngToolStripMenuItem.Size = new System.Drawing.Size(72, 20);
+            this.hệThốngToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
             this.hệThốngToolStripMenuItem.Text = "Hệ Thống";
             // 
             // MenuItem_AccountDetail
             // 
             this.MenuItem_AccountDetail.Name = "MenuItem_AccountDetail";
-            this.MenuItem_AccountDetail.Size = new System.Drawing.Size(178, 22);
+            this.MenuItem_AccountDetail.Size = new System.Drawing.Size(180, 22);
             this.MenuItem_AccountDetail.Text = "Thông tin tài khoản";
             this.MenuItem_AccountDetail.Click += new System.EventHandler(this.MenuItem_AccountDetail_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(175, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
             // 
             // MenuItem_Logout
             // 
             this.MenuItem_Logout.Name = "MenuItem_Logout";
-            this.MenuItem_Logout.Size = new System.Drawing.Size(178, 22);
+            this.MenuItem_Logout.Size = new System.Drawing.Size(180, 22);
             this.MenuItem_Logout.Text = "Đăng xuất";
             this.MenuItem_Logout.Click += new System.EventHandler(this.MenuItem_Logout_Click);
             // 
             // MenuItem_Exit
             // 
             this.MenuItem_Exit.Name = "MenuItem_Exit";
-            this.MenuItem_Exit.Size = new System.Drawing.Size(178, 22);
+            this.MenuItem_Exit.Size = new System.Drawing.Size(180, 22);
             this.MenuItem_Exit.Text = "Thoát";
             this.MenuItem_Exit.Click += new System.EventHandler(this.MenuItem_Exit_Click);
             // 
             // sảnPhẩmToolStripMenuItem
             // 
-            this.sảnPhẩmToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.MenuItem_AllSP,
-            this.MenuItem_SearchSP});
             this.sảnPhẩmToolStripMenuItem.Name = "sảnPhẩmToolStripMenuItem";
             this.sảnPhẩmToolStripMenuItem.Size = new System.Drawing.Size(72, 20);
             this.sảnPhẩmToolStripMenuItem.Text = "Sản Phẩm";
-            // 
-            // MenuItem_AllSP
-            // 
-            this.MenuItem_AllSP.Name = "MenuItem_AllSP";
-            this.MenuItem_AllSP.Size = new System.Drawing.Size(184, 22);
-            this.MenuItem_AllSP.Text = "Danh sách sản phẩm";
-            // 
-            // MenuItem_SearchSP
-            // 
-            this.MenuItem_SearchSP.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.MenuItem_SearchSP_Name,
-            this.MenuItem_SearchSP_Price});
-            this.MenuItem_SearchSP.Name = "MenuItem_SearchSP";
-            this.MenuItem_SearchSP.Size = new System.Drawing.Size(184, 22);
-            this.MenuItem_SearchSP.Text = "Tìm kiếm sản phẩm";
-            // 
-            // MenuItem_SearchSP_Name
-            // 
-            this.MenuItem_SearchSP_Name.Name = "MenuItem_SearchSP_Name";
-            this.MenuItem_SearchSP_Name.Size = new System.Drawing.Size(121, 22);
-            this.MenuItem_SearchSP_Name.Text = "Theo tên";
-            // 
-            // MenuItem_SearchSP_Price
-            // 
-            this.MenuItem_SearchSP_Price.Name = "MenuItem_SearchSP_Price";
-            this.MenuItem_SearchSP_Price.Size = new System.Drawing.Size(121, 22);
-            this.MenuItem_SearchSP_Price.Text = "Theo giá";
+            this.sảnPhẩmToolStripMenuItem.Click += new System.EventHandler(this.sảnPhẩmToolStripMenuItem_Click);
             // 
             // MenuItem_Customer
             // 
@@ -162,7 +129,7 @@
             this.MenuItem_Stat_DT,
             this.MenuItem_AllHD});
             this.MenuItem_Stat.Name = "MenuItem_Stat";
-            this.MenuItem_Stat.Size = new System.Drawing.Size(70, 20);
+            this.MenuItem_Stat.Size = new System.Drawing.Size(69, 20);
             this.MenuItem_Stat.Text = "Thống Kê";
             // 
             // MenuItem_Stat_SoSPBan
@@ -195,7 +162,7 @@
             // MenuItem_Help
             // 
             this.MenuItem_Help.Name = "MenuItem_Help";
-            this.MenuItem_Help.Size = new System.Drawing.Size(65, 20);
+            this.MenuItem_Help.Size = new System.Drawing.Size(63, 20);
             this.MenuItem_Help.Text = "Trợ Giúp";
             this.MenuItem_Help.Click += new System.EventHandler(this.MenuItem_Help_Click);
             // 
@@ -225,10 +192,6 @@
         private System.Windows.Forms.ToolStripMenuItem MenuItem_Logout;
         private System.Windows.Forms.ToolStripMenuItem MenuItem_Exit;
         private System.Windows.Forms.ToolStripMenuItem sảnPhẩmToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem MenuItem_AllSP;
-        private System.Windows.Forms.ToolStripMenuItem MenuItem_SearchSP;
-        private System.Windows.Forms.ToolStripMenuItem MenuItem_SearchSP_Name;
-        private System.Windows.Forms.ToolStripMenuItem MenuItem_SearchSP_Price;
         private System.Windows.Forms.ToolStripMenuItem MenuItem_Customer;
         private System.Windows.Forms.ToolStripMenuItem MenuItem_Employee;
         private System.Windows.Forms.ToolStripMenuItem MenuItem_Stat;
