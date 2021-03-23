@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace QuanLySieuThi
 {
@@ -39,7 +40,10 @@ namespace QuanLySieuThi
         // Logout
         private void MenuItem_Logout_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            var flogin = new Login();
+            flogin.Closed += (s, args) => this.Close();
+            flogin.Show();
         }                   
 
         // Exit
@@ -94,6 +98,21 @@ namespace QuanLySieuThi
         private void MenuItem_Import_Click(object sender, EventArgs e)
         {
 
+        }
+
+        // Init
+        private void FormMain_Load(object sender, EventArgs e)
+        {
+            using (SqlConnection con = new SqlConnection(ConnectionString.str))
+            {
+                con.Open();
+                string query = "SELECT * FROM NhanVien " +
+                    "WHERE MaNV = '" + curID.ToString() + "'";
+                SqlCommand cmd = new SqlCommand(query, con);
+                SqlDataReader reader = cmd.ExecuteReader();
+                reader.Read();
+                CurrentUser.Text = "Xin chào " + reader["TenNV"].ToString();
+            }
         }
     }
 }

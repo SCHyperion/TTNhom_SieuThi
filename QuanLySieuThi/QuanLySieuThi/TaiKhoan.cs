@@ -90,7 +90,6 @@ namespace QuanLySieuThi
             textbox_SDT.Enabled = false;    textbox_SDT.ReadOnly = true;
             textbox_Pass.Enabled = false;   textbox_Pass.ReadOnly = true;
             button_Confirm.Enabled = false;
-
         }
     }
 }
