@@ -52,7 +52,7 @@
             this.richtextbox_Display.Size = new System.Drawing.Size(638, 540);
             this.richtextbox_Display.TabIndex = 1;
             this.richtextbox_Display.Text = "";
-            this.richtextbox_Display.ZoomFactor = 1.5F;
+            this.richtextbox_Display.ZoomFactor = 1.6F;
             // 
             // Help
             // 

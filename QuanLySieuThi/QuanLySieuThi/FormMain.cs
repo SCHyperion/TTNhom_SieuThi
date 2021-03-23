@@ -94,8 +94,8 @@ namespace QuanLySieuThi
             mh.Show();
         }
 
-        // Nhap hang
-        private void MenuItem_Import_Click(object sender, EventArgs e)
+        // Tao hoa don
+        private void MenuItem_CreateBill_Click(object sender, EventArgs e)
         {
 
         }

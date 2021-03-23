@@ -41,7 +41,7 @@
             this.MenuItem_Stat_SoSPBan = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuItem_Stat_DT = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuItem_AllHD = new System.Windows.Forms.ToolStripMenuItem();
-            this.MenuItem_Import = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuItem_CreateBill = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuItem_Help = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.CurrentUser = new System.Windows.Forms.ToolStripStatusLabel();
@@ -58,7 +58,7 @@
             this.MenuItem_Customer,
             this.MenuItem_Employee,
             this.MenuItem_Stat,
-            this.MenuItem_Import,
+            this.MenuItem_CreateBill,
             this.MenuItem_Help});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -156,12 +156,12 @@
             this.MenuItem_AllHD.Text = "Danh sách hóa đơn";
             this.MenuItem_AllHD.Click += new System.EventHandler(this.MenuItem_AllHD_Click);
             // 
-            // MenuItem_Import
+            // MenuItem_CreateBill
             // 
-            this.MenuItem_Import.Name = "MenuItem_Import";
-            this.MenuItem_Import.Size = new System.Drawing.Size(80, 20);
-            this.MenuItem_Import.Text = "Nhập Hàng";
-            this.MenuItem_Import.Click += new System.EventHandler(this.MenuItem_Import_Click);
+            this.MenuItem_CreateBill.Name = "MenuItem_CreateBill";
+            this.MenuItem_CreateBill.Size = new System.Drawing.Size(86, 20);
+            this.MenuItem_CreateBill.Text = "Tạo hóa đơn";
+            this.MenuItem_CreateBill.Click += new System.EventHandler(this.MenuItem_CreateBill_Click);
             // 
             // MenuItem_Help
             // 
@@ -225,7 +225,7 @@
         private System.Windows.Forms.ToolStripMenuItem MenuItem_Stat_DT;
         private System.Windows.Forms.ToolStripMenuItem MenuItem_AllHD;
         private System.Windows.Forms.ToolStripMenuItem MenuItem_Help;
-        private System.Windows.Forms.ToolStripMenuItem MenuItem_Import;
+        private System.Windows.Forms.ToolStripMenuItem MenuItem_CreateBill;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel CurrentUser;
     }

@@ -35,6 +35,7 @@
             this.button_Cancel = new System.Windows.Forms.Button();
             this.button_Login = new System.Windows.Forms.Button();
             this.label_Message = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -106,7 +107,18 @@
             this.label_Message.Name = "label_Message";
             this.label_Message.Size = new System.Drawing.Size(138, 16);
             this.label_Message.TabIndex = 6;
-            this.label_Message.Text = "ID hoac Password sai";
+            this.label_Message.Text = "ID hoặc Password sai";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Red;
+            this.label3.Location = new System.Drawing.Point(12, 21);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(465, 24);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Chào mừng đến với chương trình quản lý siêu thị";
             // 
             // Login
             // 
@@ -115,6 +127,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.button_Cancel;
             this.ClientSize = new System.Drawing.Size(485, 268);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label_Message);
             this.Controls.Add(this.button_Login);
             this.Controls.Add(this.button_Cancel);
@@ -124,7 +137,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Login";
+            this.Text = "Đăng Nhập";
             this.Load += new System.EventHandler(this.Login_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -140,5 +153,6 @@
         private System.Windows.Forms.Button button_Cancel;
         private System.Windows.Forms.Button button_Login;
         private System.Windows.Forms.Label label_Message;
+        private System.Windows.Forms.Label label3;
     }
 }

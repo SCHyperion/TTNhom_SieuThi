@@ -1,0 +1,14 @@
+﻿
+Form quản lý mặt hàng:
+
+-	Chức năng thêm mặt hàng: Để thêm mới mặt hàng, nhập vào các ô mã mặt hàng , tên mặt hàng , giá bán, số lượng bán, nhấn “Thêm” để thêm mới mặt hàng (không thể thêm mặt hàng đã có trong cơ sở dữ liệu)
+
+-	Chức năng sửa mặt hàng: Để sửa thông tin mặt hàng, nhập vào các ô tên mặt hàng , giá bán, số lượng bán, nhấn “Sửa” để sửa thông tin mặt hàng
+
+-	Chức năng xóa mặt hàng: Để thêm xóa thông tin mặt hàng, chọn vào dòng có chứa thông tin mặt hàng cần xóa , nhấn “Xóa” để xóa thông tin mặt hàng
+
+-	Chức năng tìm kiếm mặt hàng: Để tìm kiếm mặt hàng, nhập vào các ô thông tin trong phần tìm kiếm ,chọn điều kiện “Tên mặt hàng” để tìm theo tên, chọn điều kiện “Mã mặt hàng” để tìm theo mã mặt hàng, nhấn “Tìm Kiếm” để tìm kiếm thông tin mặt hàng
+
+-	Chức năng làm mới : Cập nhật lại danh sách mặt hàng.
+
+-	Chức năng thoát: Thoát khỏi form quản lý bán hàng 

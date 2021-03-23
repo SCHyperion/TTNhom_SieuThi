@@ -24,9 +24,7 @@ namespace QuanLySieuThi
             treeview_All.Nodes["System"].Nodes.Add("Thông tin tài khoản");
             treeview_All.Nodes["System"].Nodes.Add("Đăng xuất");
 
-            treeview_All.Nodes.Add("Product", "Sản Phẩm");
-            treeview_All.Nodes["Product"].Nodes.Add("Danh sách sản phẩm");
-            treeview_All.Nodes["Product"].Nodes.Add("Tìm kiếm sản phẩm");
+            treeview_All.Nodes.Add("Product", "Sản phẩm");
 
             treeview_All.Nodes.Add("Customer", "Khách hàng");
 
@@ -37,7 +35,7 @@ namespace QuanLySieuThi
             treeview_All.Nodes["Statistics"].Nodes.Add("Doanh thu");
             treeview_All.Nodes["Statistics"].Nodes.Add("Danh sách hóa đơn");
 
-            treeview_All.Nodes.Add("Import", "Nhập hàng");
+            treeview_All.Nodes.Add("Bill", "Tạo hóa đơn");
         }
 
         private void treeview_All_AfterSelect(object sender, TreeViewEventArgs e)
@@ -61,21 +59,11 @@ namespace QuanLySieuThi
                         richtextbox_Display.ReadOnly = true;
                         break;
                     }
-                case "Danh sách sản phẩm":
+                case "Sản phẩm":                        // done
                     {
                         richtextbox_Display.ReadOnly = false;
-                        richtextbox_Display.Text = File.ReadAllText(@"Help\test2.txt");
-                        Clipboard.SetImage(Image.FromFile(@"Help\test2.jpg"));
-                        richtextbox_Display.AppendText("\n");
-                        richtextbox_Display.Paste();
-                        richtextbox_Display.ReadOnly = true;
-                        break;
-                    }
-                case "Tìm kiếm sản phẩm":
-                    {
-                        richtextbox_Display.ReadOnly = false;
-                        richtextbox_Display.Text = File.ReadAllText(@"Help\test2.txt");
-                        Clipboard.SetImage(Image.FromFile(@"Help\test2.jpg"));
+                        richtextbox_Display.Text = File.ReadAllText(@"Help\QLSanPham.txt");
+                        Clipboard.SetImage(Image.FromFile(@"Help\QLSanPham.jpg"));
                         richtextbox_Display.AppendText("\n");
                         richtextbox_Display.Paste();
                         richtextbox_Display.ReadOnly = true;
@@ -141,7 +129,7 @@ namespace QuanLySieuThi
                         richtextbox_Display.ReadOnly = true;
                         break;
                     }
-                case "Nhập hàng":
+                case "Tạo hóa đơn":
                     {
                         richtextbox_Display.ReadOnly = false;
                         richtextbox_Display.Text = File.ReadAllText(@"Help\test2.txt");
