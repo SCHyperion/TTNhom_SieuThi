@@ -57,7 +57,7 @@ namespace QuanLySieuThi
             }
         }
 
-        private void HDBan_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void HDBan_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             int i = HDBan.CurrentRow.Index;
             txtMaHDBan.Text = HDBan.Rows[i].Cells[0].Value.ToString();
@@ -65,7 +65,7 @@ namespace QuanLySieuThi
             dateTimeNgayMua.Text = HDBan.Rows[i].Cells[2].Value.ToString();
         }
 
-        private void CTHDBan_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void CTHDBan_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             int i = CTHDBan.CurrentRow.Index;
             txtMaHDBanCT.Text = CTHDBan.Rows[i].Cells[0].Value.ToString();
@@ -73,14 +73,14 @@ namespace QuanLySieuThi
             txtSoLuongBan.Text = CTHDBan.Rows[i].Cells[2].Value.ToString();
         }
 
-        private void HDNhap_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void HDNhap_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             int i = HDNhap.CurrentRow.Index;
             txtMaHDNhap.Text = HDNhap.Rows[i].Cells[0].Value.ToString();
             dateTimeNgayNhap.Text = HDNhap.Rows[i].Cells[1].Value.ToString();
         }
 
-        private void CTHDNhap_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void CTHDNhap_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             int i = CTHDNhap.CurrentRow.Index;
             txtMaHDNhapCT.Text = CTHDNhap.Rows[i].Cells[0].Value.ToString();

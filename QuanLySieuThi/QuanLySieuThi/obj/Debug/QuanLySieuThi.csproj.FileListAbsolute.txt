@@ -97,3 +97,4 @@ C:\GITHUB\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.csp
 C:\GITHUB\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.exe
 C:\GITHUB\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.pdb
 C:\GITHUB\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.frm_MatHang.resources
+G:\Thực tập nhóm\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.frm_MatHang.resources
