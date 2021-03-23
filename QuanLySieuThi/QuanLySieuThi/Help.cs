@@ -104,11 +104,11 @@ namespace QuanLySieuThi
                         richtextbox_Display.ReadOnly = true;
                         break;
                     }
-                case "Doanh thu":
+                case "Doanh thu":                       // done
                     {
                         richtextbox_Display.ReadOnly = false;
-                        richtextbox_Display.Text = File.ReadAllText(@"Help\test2.txt");
-                        Clipboard.SetImage(Image.FromFile(@"Help\test2.jpg"));
+                        richtextbox_Display.Text = File.ReadAllText(@"Help\DoanhThu.txt");
+                        Clipboard.SetImage(Image.FromFile(@"Help\DoanhThu.jpg"));
                         richtextbox_Display.AppendText("\n");
                         richtextbox_Display.Paste();
                         richtextbox_Display.ReadOnly = true;
