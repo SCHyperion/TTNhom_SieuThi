@@ -103,6 +103,16 @@ namespace QuanLySieuThi.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap sieuthi {
+            get {
+                object obj = ResourceManager.GetObject("sieuthi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap trash_can {
             get {
                 object obj = ResourceManager.GetObject("trash-can", resourceCulture);

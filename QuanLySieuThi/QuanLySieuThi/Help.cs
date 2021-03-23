@@ -79,11 +79,11 @@ namespace QuanLySieuThi
                         richtextbox_Display.ReadOnly = true;
                         break;
                     }
-                case "Nhân viên":
+                case "Nhân viên":                       // done
                     {
                         richtextbox_Display.ReadOnly = false;
-                        richtextbox_Display.Text = File.ReadAllText(@"Help\test2.txt");
-                        Clipboard.SetImage(Image.FromFile(@"Help\test2.jpg"));
+                        richtextbox_Display.Text = File.ReadAllText(@"Help\QLNhanVien.txt");
+                        Clipboard.SetImage(Image.FromFile(@"Help\QLNhanVien.jpg"));
                         richtextbox_Display.AppendText("\n");
                         richtextbox_Display.Paste();
                         richtextbox_Display.ReadOnly = true;

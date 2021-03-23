@@ -183,6 +183,8 @@
   <ItemGroup>
     <None Include="Resources\trash-can.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="bin\Debug\Help\sieuthi.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -77,6 +77,7 @@
             // 
             // button_Cancel
             // 
+            this.button_Cancel.BackColor = System.Drawing.SystemColors.Control;
             this.button_Cancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.button_Cancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_Cancel.Location = new System.Drawing.Point(101, 188);
@@ -84,7 +85,7 @@
             this.button_Cancel.Size = new System.Drawing.Size(94, 44);
             this.button_Cancel.TabIndex = 4;
             this.button_Cancel.Text = "Hủy";
-            this.button_Cancel.UseVisualStyleBackColor = true;
+            this.button_Cancel.UseVisualStyleBackColor = false;
             this.button_Cancel.Click += new System.EventHandler(this.button_Cancel_Click);
             // 
             // button_Login
@@ -125,6 +126,7 @@
             this.AcceptButton = this.button_Login;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.CancelButton = this.button_Cancel;
             this.ClientSize = new System.Drawing.Size(485, 268);
             this.Controls.Add(this.label3);
