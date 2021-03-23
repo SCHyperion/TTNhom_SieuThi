@@ -12,13 +12,13 @@ namespace QuanLySieuThi
 {
     public partial class FormMain : Form
     {
-        string curID = "";
+        int curID;
         string curPass = "";
         //public FormMain(string id, string pass)
-        public FormMain()
+        public FormMain(int id, string pass)
         {
-            //curID = id;
-            //curPass = pass;
+            curID = id;
+            curPass = pass;
             InitializeComponent();
         }
 
@@ -32,8 +32,8 @@ namespace QuanLySieuThi
         // Thong tin tai khoan
         private void MenuItem_AccountDetail_Click(object sender, EventArgs e)
         {
-            //TaiKhoan tk = new TaiKhoan(curID,curPass);
-            //tk.Show();
+            TaiKhoan tk = new TaiKhoan(curID, curPass);
+            tk.Show();
         }          
 
         // Logout
@@ -83,10 +83,17 @@ namespace QuanLySieuThi
             kh.Show();
         }
 
-        private void sảnPhẩmToolStripMenuItem_Click(object sender, EventArgs e)
+        // San pham
+        private void MenuItem_SanPham_Click(object sender, EventArgs e)
         {
             frm_MatHang mh = new frm_MatHang();
             mh.Show();
+        }
+
+        // Nhap hang
+        private void MenuItem_Import_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

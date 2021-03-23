@@ -31,17 +31,19 @@ namespace QuanLySieuThi
                 {
                     con.Open();
                     string query = "SELECT * FROM TaiKhoan " +
-                        "WHERE MaNV = " + Int32.Parse(textbox_ID.Text) +
-                        " and MatKhau = " + (textbox_Password.Text);
+                        "WHERE MaNV = '" + (textbox_ID.Text) +
+                        "' and MatKhau = '" + (textbox_Password.Text) + "'";
                     SqlCommand cmd = new SqlCommand(query, con);
-                    SqlDataReader reader = cmd.ExecuteReader();
-                    reader.Read();
-                    if (reader != null)
+                    SqlDataReader reader = cmd.ExecuteReader();                   
+                    if (reader.HasRows)
                     {
+                        reader.Read();
                         int id = Int32.Parse(textbox_ID.Text);
                         string pass = textbox_Password.Text;
-                        //FormMain fmain = new FormMain(id, pass);
-                        //fmain.Show();
+                        this.Hide();
+                        var fmain = new FormMain(id, pass);
+                        fmain.Closed += (s, args) => this.Close();
+                        fmain.Show();
                     }
                     else label_Message.Visible = true;
                 }

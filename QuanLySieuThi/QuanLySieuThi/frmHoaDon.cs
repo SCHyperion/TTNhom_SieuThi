@@ -13,7 +13,7 @@ namespace QuanLySieuThi
 {
     public partial class frmHoaDon : Form
     {
-        SqlConnection connection = new SqlConnection(ConnectionString.conStr);
+        SqlConnection connection = new SqlConnection(ConnectionString.str);
         public frmHoaDon()
         {
             InitializeComponent();
