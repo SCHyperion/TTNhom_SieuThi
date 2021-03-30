@@ -55,6 +55,7 @@
             this.textbox_ID.Name = "textbox_ID";
             this.textbox_ID.Size = new System.Drawing.Size(176, 24);
             this.textbox_ID.TabIndex = 1;
+            this.textbox_ID.Text = "1";
             // 
             // textbox_Password
             // 
@@ -63,6 +64,7 @@
             this.textbox_Password.Name = "textbox_Password";
             this.textbox_Password.Size = new System.Drawing.Size(176, 24);
             this.textbox_Password.TabIndex = 3;
+            this.textbox_Password.Text = "1";
             this.textbox_Password.UseSystemPasswordChar = true;
             // 
             // label2
