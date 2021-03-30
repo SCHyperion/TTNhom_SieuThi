@@ -34,8 +34,10 @@
             // 
             // treeview_All
             // 
+            this.treeview_All.BackColor = System.Drawing.Color.PaleTurquoise;
             this.treeview_All.Dock = System.Windows.Forms.DockStyle.Left;
-            this.treeview_All.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.treeview_All.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.treeview_All.ForeColor = System.Drawing.Color.Red;
             this.treeview_All.Location = new System.Drawing.Point(0, 0);
             this.treeview_All.Name = "treeview_All";
             this.treeview_All.Size = new System.Drawing.Size(238, 540);
@@ -44,6 +46,7 @@
             // 
             // richtextbox_Display
             // 
+            this.richtextbox_Display.BackColor = System.Drawing.Color.White;
             this.richtextbox_Display.Dock = System.Windows.Forms.DockStyle.Fill;
             this.richtextbox_Display.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richtextbox_Display.Location = new System.Drawing.Point(238, 0);
