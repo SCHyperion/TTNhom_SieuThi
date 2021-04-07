@@ -20,6 +20,7 @@ namespace QuanLySieuThi
             //Application.Run(new FormMain(1, "1"));
             Application.Run(new MainForm(1, "1"));
             //Application.Run(new Test());
+            //Application.Run(new Login());
         }
     }
 }

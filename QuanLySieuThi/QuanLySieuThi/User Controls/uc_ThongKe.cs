@@ -52,7 +52,10 @@ namespace QuanLySieuThi.User_Controls
 
         private void button_ListHD_Click(object sender, EventArgs e)
         {
-
+            TKHoaDon uc = new TKHoaDon();
+            panel_Main.Controls.Clear();
+            panel_Main.Controls.Add(uc);
+            uc.Dock = DockStyle.Fill;
         }
     }
 }

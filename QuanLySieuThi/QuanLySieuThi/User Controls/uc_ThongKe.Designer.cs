@@ -90,7 +90,7 @@ namespace QuanLySieuThi.User_Controls
             // 
             // panel_Main
             // 
-            this.panel_Main.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.panel_Main.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.panel_Main.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel_Main.Location = new System.Drawing.Point(170, 0);
             this.panel_Main.Name = "panel_Main";

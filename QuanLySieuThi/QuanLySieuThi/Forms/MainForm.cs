@@ -23,14 +23,14 @@ namespace QuanLySieuThi.Forms
             curPass = pass;
             InitializeComponent();
         }
-
+        
         private void tabControl_SelectedIndexChanged(object sender, EventArgs e)
         {
             switch(tabControl.SelectedIndex)
             {
                 case 0: // Hệ Thống
                     {
-                        uc_HeThong uc = new uc_HeThong();
+                        uc_HeThong uc = new uc_HeThong(curID, curPass);
                         panel_Main.Controls.Clear();
                         panel_Main.Controls.Add(uc);
                         uc.Dock = DockStyle.Fill;
@@ -70,7 +70,7 @@ namespace QuanLySieuThi.Forms
                     }
                 case 5: // Tạo Hóa Đơn
                     {
-                        MetroSetMessageBox.Show(this, "This is tab 1");
+                        MetroSetMessageBox.Show(this, "Under Construction");
                         break;
                     }
                 case 6: // Trợ giúp
@@ -92,7 +92,7 @@ namespace QuanLySieuThi.Forms
                 SqlCommand cmd = new SqlCommand(query, con);
                 SqlDataReader reader = cmd.ExecuteReader();
                 reader.Read();
-               
+
                 this.Text = "Chào mừng " + reader["TenNV"].ToString() + " đến với chương trình quản lý siêu thị, hôm nay bạn muốn làm gì ?";
                 this.TextColor = Color.Orange;
                 this.Font = new Font("Microsoft Sans Serif", 16, FontStyle.Italic);
@@ -100,10 +100,11 @@ namespace QuanLySieuThi.Forms
                 Font font = new Font("Segoe UI", 11, FontStyle.Italic);
                 tabControl.Font = font;
 
-                uc_HeThong uc = new uc_HeThong();
+                uc_HeThong uc = new uc_HeThong(curID, curPass);
                 panel_Main.Controls.Clear();
                 panel_Main.Controls.Add(uc);
                 uc.Dock = DockStyle.Fill;
+                
             }
         }
     }
