@@ -49,18 +49,21 @@ namespace QuanLySieuThi.User_Controls
 
         private void button_DangXuat_Click(object sender, EventArgs e)
         {
-            
-            //var flogin = new Login();
-            //flogin.Closed += (s, args) => mf.Close();
-            //flogin.Show();
+            DialogResult dr = MessageBox.Show("Bạn có muốn đăng xuất khỏi tài khoản này ?", "Đăng xuất", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+            if (dr == DialogResult.OK)
+            {
+                ((Form)this.TopLevelControl).Hide();
+                var flogin = new Login();
+                flogin.Closed += (s, args) => ((Form)this.TopLevelControl).Close();
+                flogin.Show();
+            }    
         }
 
         private void button_Thoat_Click(object sender, EventArgs e)
         {
-            DialogResult dr = MessageBox.Show("Bạn có chắc chắn muốn thoát?", "Thoát chuong trinh", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+            DialogResult dr = MessageBox.Show("Bạn có chắc chắn muốn thoát?", "Thoát chương trình", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
             if (dr == DialogResult.OK)
                 Application.Exit();
-            
         }
     }
 }

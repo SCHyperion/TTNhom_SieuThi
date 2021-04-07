@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using QuanLySieuThi.Forms;
 
 namespace QuanLySieuThi
 {
@@ -41,7 +42,7 @@ namespace QuanLySieuThi
                         int id = Int32.Parse(textbox_ID.Text);
                         string pass = textbox_Password.Text;
                         this.Hide();
-                        var fmain = new FormMain(id, pass);
+                        var fmain = new MainForm(id, pass);
                         fmain.Closed += (s, args) => this.Close();
                         fmain.Show();
                     }

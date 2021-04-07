@@ -92,7 +92,7 @@ namespace QuanLySieuThi.Forms
                 SqlCommand cmd = new SqlCommand(query, con);
                 SqlDataReader reader = cmd.ExecuteReader();
                 reader.Read();
-
+                
                 this.Text = "Chào mừng " + reader["TenNV"].ToString() + " đến với chương trình quản lý siêu thị, hôm nay bạn muốn làm gì ?";
                 this.TextColor = Color.Orange;
                 this.Font = new Font("Microsoft Sans Serif", 16, FontStyle.Italic);
