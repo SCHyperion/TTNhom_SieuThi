@@ -1,5 +1,4 @@
-﻿using MetroSet_UI.Forms;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,7 +10,7 @@ using System.Windows.Forms;
 
 namespace QuanLySieuThi
 {
-    public partial class Test : MetroSetForm
+    public partial class Test : Form
     {
         public Test()
         {
@@ -20,7 +19,9 @@ namespace QuanLySieuThi
 
         private void Test_Load(object sender, EventArgs e)
         {
-            this.MaximumSize = Screen.PrimaryScreen.WorkingArea.Size;
+            controlbox.MinimizeNormalForeColor = Color.Black;
+            controlbox.MinimizeHoverForeColor = Color.White;
+            controlbox.MinimizeHoverBackColor = Color.Gray;
         }
     }
 }

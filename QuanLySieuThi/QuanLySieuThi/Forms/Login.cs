@@ -56,6 +56,9 @@ namespace QuanLySieuThi
         {
             label_Message.Visible = false;
             label_Message.ForeColor = System.Drawing.Color.DarkRed;
+            controlbox.MinimizeNormalForeColor = Color.Black;
+            controlbox.MinimizeHoverForeColor = Color.White;
+            controlbox.MinimizeHoverBackColor = Color.Gray;
         }
     }
 }
