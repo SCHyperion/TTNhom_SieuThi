@@ -30,8 +30,8 @@ namespace QuanLySieuThi
         private void InitializeComponent()
         {
             this.controlbox = new MetroSet_UI.Controls.MetroSetControlBox();
-            this.metroSetPanel1 = new MetroSet_UI.Controls.MetroSetPanel();
             this.styleManager1 = new MetroSet_UI.Components.StyleManager();
+            this.metroSetPanel1 = new MetroSet_UI.Controls.MetroSetPanel();
             this.SuspendLayout();
             // 
             // controlbox
@@ -60,9 +60,18 @@ namespace QuanLySieuThi
             this.controlbox.ThemeAuthor = null;
             this.controlbox.ThemeName = null;
             // 
+            // styleManager1
+            // 
+            this.styleManager1.CustomTheme = "C:\\Users\\Crimson Dragon\\AppData\\Roaming\\Microsoft\\Windows\\Templates\\ThemeFile.xml" +
+    "";
+            this.styleManager1.MetroForm = this;
+            this.styleManager1.Style = MetroSet_UI.Enums.Style.Light;
+            this.styleManager1.ThemeAuthor = null;
+            this.styleManager1.ThemeName = null;
+            // 
             // metroSetPanel1
             // 
-            this.metroSetPanel1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.metroSetPanel1.BackgroundColor = System.Drawing.Color.White;
             this.metroSetPanel1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(150)))));
             this.metroSetPanel1.BorderThickness = 1;
             this.metroSetPanel1.IsDerivedStyle = true;
@@ -74,15 +83,6 @@ namespace QuanLySieuThi
             this.metroSetPanel1.TabIndex = 2;
             this.metroSetPanel1.ThemeAuthor = null;
             this.metroSetPanel1.ThemeName = null;
-            // 
-            // styleManager1
-            // 
-            this.styleManager1.CustomTheme = "C:\\Users\\Crimson Dragon\\AppData\\Roaming\\Microsoft\\Windows\\Templates\\ThemeFile.xml" +
-    "";
-            this.styleManager1.MetroForm = this;
-            this.styleManager1.Style = MetroSet_UI.Enums.Style.Light;
-            this.styleManager1.ThemeAuthor = null;
-            this.styleManager1.ThemeName = null;
             // 
             // Test
             // 

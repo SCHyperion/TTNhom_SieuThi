@@ -47,7 +47,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(98, 76);
+            this.label1.Location = new System.Drawing.Point(116, 82);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(26, 18);
             this.label1.TabIndex = 0;
@@ -56,7 +56,8 @@
             // textbox_ID
             // 
             this.textbox_ID.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textbox_ID.Location = new System.Drawing.Point(191, 73);
+            this.textbox_ID.ForeColor = System.Drawing.Color.Black;
+            this.textbox_ID.Location = new System.Drawing.Point(209, 79);
             this.textbox_ID.Name = "textbox_ID";
             this.textbox_ID.Size = new System.Drawing.Size(176, 24);
             this.textbox_ID.TabIndex = 1;
@@ -64,7 +65,8 @@
             // textbox_Password
             // 
             this.textbox_Password.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textbox_Password.Location = new System.Drawing.Point(191, 113);
+            this.textbox_Password.ForeColor = System.Drawing.Color.Black;
+            this.textbox_Password.Location = new System.Drawing.Point(209, 119);
             this.textbox_Password.Name = "textbox_Password";
             this.textbox_Password.Size = new System.Drawing.Size(176, 24);
             this.textbox_Password.TabIndex = 3;
@@ -76,7 +78,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(98, 116);
+            this.label2.Location = new System.Drawing.Point(116, 122);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(79, 18);
             this.label2.TabIndex = 2;
@@ -160,7 +162,7 @@
             // 
             // metroSetPanel1
             // 
-            this.metroSetPanel1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.metroSetPanel1.BackgroundColor = System.Drawing.Color.White;
             this.metroSetPanel1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(150)))));
             this.metroSetPanel1.BorderThickness = 1;
             this.metroSetPanel1.Controls.Add(this.label3);
