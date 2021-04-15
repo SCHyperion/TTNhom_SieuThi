@@ -57,25 +57,25 @@ namespace QuanLySieuThi.User_Controls
             {
                 if (connection.State == ConnectionState.Closed)
                     connection.Open();
-                SqlCommand cmd1 = new SqlCommand("SELECT MaHD AS N'Mã hóa đơn', MaKH AS N'Mã khách hàng', NgayMua AS N'Ngày mua' FROM HDBan", connection);
+                SqlCommand cmd1 = new SqlCommand("SELECT * FROM HDBan", connection);
                 SqlDataReader read1 = cmd1.ExecuteReader();
                 DataTable table1 = new DataTable();
                 table1.Load(read1);
                 HDBan.DataSource = table1;
 
-                SqlCommand cmd2 = new SqlCommand("SELECT MaHD AS N'Mã hóa đơn', MaHang AS N'Mã hàng', SoLuong AS N'Số lượng' FROM CTHDBan", connection);
+                SqlCommand cmd2 = new SqlCommand("SELECT * FROM CTHDBan", connection);
                 SqlDataReader read2 = cmd2.ExecuteReader();
                 DataTable table2 = new DataTable();
                 table2.Load(read2);
                 CTHDBan.DataSource = table2;
 
-                SqlCommand cmd3 = new SqlCommand("SELECT MaHD AS N'Mã hóa đơn', NgayNhap AS N'Ngày nhập' FROM HDNhap", connection);
+                SqlCommand cmd3 = new SqlCommand("SELECT * FROM HDNhap", connection);
                 SqlDataReader read3 = cmd3.ExecuteReader();
                 DataTable table3 = new DataTable();
                 table3.Load(read3);
                 HDNhap.DataSource = table3;
 
-                SqlCommand cmd4 = new SqlCommand("SELECT MaHD AS N'Mã hóa đơn', MaHang AS N'Mã hàng', GiaNhap AS N'Giá nhập', SoLuong AS N'Số lượng' FROM CTHDNhap", connection);
+                SqlCommand cmd4 = new SqlCommand("SELECT * FROM CTHDNhap", connection);
                 SqlDataReader read4 = cmd4.ExecuteReader();
                 DataTable table4 = new DataTable();
                 table4.Load(read4);
