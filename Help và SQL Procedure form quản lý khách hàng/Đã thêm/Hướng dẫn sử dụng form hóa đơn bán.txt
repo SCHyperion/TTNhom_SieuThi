@@ -1,0 +1,5 @@
+Ban đầu khi chạy form lên thì sẽ hiện ra thông tin của hóa đơn ở vị trí số 2 
+Khi ấn vào button "Đầu tiên" thì sẽ hiện ra thông tin của hóa đơn ở vị trí đầu tiên
+Khi ấn vào button "Cuối cùng" thì sẽ hiện ra thông tin của hóa đơn ở vị trí cuối cùng
+Khi ấn vào button "Lên" thì sẽ di chuyển đến bản ghi hóa đơn phía trên
+Khi ấn vào button "Xuống" thì sẽ di chuyển đến bản ghi hóa đơn phía dưới 
