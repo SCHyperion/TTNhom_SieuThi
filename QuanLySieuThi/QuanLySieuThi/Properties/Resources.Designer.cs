@@ -63,16 +63,6 @@ namespace QuanLySieuThi.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _null {
-            get {
-                object obj = ResourceManager.GetObject("null", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap add_user {
             get {
                 object obj = ResourceManager.GetObject("add-user", resourceCulture);
@@ -116,16 +106,6 @@ namespace QuanLySieuThi.Properties {
         internal static System.Drawing.Bitmap sieuthi {
             get {
                 object obj = ResourceManager.GetObject("sieuthi", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap sieuthi1 {
-            get {
-                object obj = ResourceManager.GetObject("sieuthi1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
