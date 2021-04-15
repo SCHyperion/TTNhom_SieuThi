@@ -100,6 +100,7 @@ C:\GITHUB\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.frm
 G:\Thực tập nhóm\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.frm_MatHang.resources
 =======
 D:\TTNhom\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.frm_MatHang.resources
+<<<<<<< HEAD
 C:\Users\User\OneDrive\Desktop\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\bin\Debug\QuanLySieuThi.exe.config
 C:\Users\User\OneDrive\Desktop\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\bin\Debug\QuanLySieuThi.exe
 C:\Users\User\OneDrive\Desktop\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\bin\Debug\QuanLySieuThi.pdb
@@ -120,3 +121,59 @@ C:\Users\User\OneDrive\Desktop\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\De
 C:\Users\User\OneDrive\Desktop\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.csproj.CoreCompileInputs.cache
 C:\Users\User\OneDrive\Desktop\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.exe
 C:\Users\User\OneDrive\Desktop\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.pdb
+=======
+D:\Testing Ground\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\bin\Debug\QuanLySieuThi.exe.config
+D:\Testing Ground\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\bin\Debug\QuanLySieuThi.exe
+D:\Testing Ground\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\bin\Debug\QuanLySieuThi.pdb
+D:\Testing Ground\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.csprojAssemblyReference.cache
+D:\Testing Ground\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.FormDoanhThuBan.resources
+D:\Testing Ground\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.fNhanVien.resources
+D:\Testing Ground\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.FormMain.resources
+D:\Testing Ground\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.Form_Khachhang.resources
+D:\Testing Ground\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.frmHoaDon.resources
+D:\Testing Ground\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.frmThongKe.resources
+D:\Testing Ground\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.frm_MatHang.resources
+D:\Testing Ground\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.Help.resources
+D:\Testing Ground\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.Login.resources
+D:\Testing Ground\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.Properties.Resources.resources
+D:\Testing Ground\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.TaiKhoan.resources
+D:\Testing Ground\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.csproj.GenerateResource.cache
+D:\Testing Ground\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.csproj.CoreCompileInputs.cache
+D:\Testing Ground\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.exe
+D:\Testing Ground\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.pdb
+D:\Testing Ground\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.Forms.MainMenuForm.resources
+D:\Testing Ground\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.User_Controls.uc_SanPham.resources
+D:\Testing Ground\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.User_Controls.uc_KhachHang.resources
+D:\Testing Ground\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.User_Controls.uc_NhanVien.resources
+D:\Testing Ground\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.csproj.CopyComplete
+D:\Testing Ground\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.Test.resources
+D:\Testing Ground\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\bin\Debug\MetroFramework.Design.dll
+D:\Testing Ground\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\bin\Debug\MetroFramework.dll
+D:\Testing Ground\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\bin\Debug\MetroFramework.Fonts.dll
+D:\Testing Ground\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\bin\Debug\MetroSet UI.dll
+D:\Testing Ground\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.Forms.MainForm.resources
+D:\Testing Ground\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.User_Controls.uc_ThongKe.resources
+D:\Testing Ground\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.User_Controls.TKSoSP.resources
+D:\Testing Ground\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.User_Controls.uc_HeThong.resources
+D:\TTNhom\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\bin\Debug\MetroFramework.Design.dll
+D:\TTNhom\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\bin\Debug\MetroFramework.dll
+D:\TTNhom\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\bin\Debug\MetroFramework.Fonts.dll
+D:\TTNhom\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\bin\Debug\MetroSet UI.dll
+D:\TTNhom\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.Forms.MainForm.resources
+D:\TTNhom\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.Forms.MainMenuForm.resources
+D:\TTNhom\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.Test.resources
+D:\TTNhom\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.User_Controls.TKDoanhThu.resources
+D:\TTNhom\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.User_Controls.TKSoSP.resources
+D:\TTNhom\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.User_Controls.uc_HeThong.resources
+D:\TTNhom\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.User_Controls.uc_KhachHang.resources
+D:\TTNhom\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.User_Controls.uc_NhanVien.resources
+D:\TTNhom\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.User_Controls.uc_SanPham.resources
+D:\TTNhom\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.User_Controls.uc_ThongKe.resources
+D:\TTNhom\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.csproj.CopyComplete
+D:\TTNhom\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.User_Controls.TKHoaDon.resources
+D:\TTNhom\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.User_Controls.uc_TaiKhoan.resources
+D:\Testing Ground\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.User_Controls.TKDoanhThu.resources
+D:\Testing Ground\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.User_Controls.TKHoaDon.resources
+D:\Testing Ground\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.User_Controls.uc_TaiKhoan.resources
+D:\Testing Ground\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.User_Controls.uc_TaoHoaDon.resources
+>>>>>>> 9b910c3ec8aac5daf4a1d73dc44f96b97d4727d7
