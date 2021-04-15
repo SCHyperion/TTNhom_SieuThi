@@ -70,7 +70,10 @@ namespace QuanLySieuThi.Forms
                     }
                 case 5: // Tạo Hóa Đơn
                     {
-                        MetroSetMessageBox.Show(this, "Under Construction");
+                        uc_TaoHoaDon uc = new uc_TaoHoaDon();
+                        panel_Main.Controls.Clear();
+                        panel_Main.Controls.Add(uc);
+                        uc.Dock = DockStyle.Fill;
                         break;
                     }
                 case 6: // Trợ giúp

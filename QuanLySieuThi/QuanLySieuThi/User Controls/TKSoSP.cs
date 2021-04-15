@@ -25,7 +25,7 @@ namespace QuanLySieuThi.User_Controls
             btnThongKeNgay_Ngay.Region = new Region(path);
             path.Reset();
         }
-        SqlConnection connection = new SqlConnection(ConnectionString.conStr);
+        SqlConnection connection = new SqlConnection(ConnectionString.str);
 
         private void btnThongKeNgay_Click(object sender, EventArgs e)
         {
@@ -33,7 +33,7 @@ namespace QuanLySieuThi.User_Controls
             {
                 if (connection.State == ConnectionState.Closed)
                     connection.Open();
-                SqlCommand cmd = new SqlCommand("SELECT c.MaHang, m.TenHang, SUM(c.SoLuong) AS SoLuong" +
+                SqlCommand cmd = new SqlCommand("SELECT c.MaHang as 'Mã Hàng', m.TenHang as 'Tên Hàng', SUM(c.SoLuong) AS 'Số Lượng'" +
                                            " FROM HDBan h join CTHDBan c on h.MaHD = c.MaHD, MatHang m" +
                                            " WHERE h.NgayMua LIKE '" + txtNgay.Text + "' and c.MaHang = m.MaHang" +
                                            " GROUP BY c.MaHang, m.TenHang", connection);
@@ -56,7 +56,7 @@ namespace QuanLySieuThi.User_Controls
             {
                 if (connection.State == ConnectionState.Closed)
                     connection.Open();
-                SqlCommand cmd = new SqlCommand("SELECT c.MaHang, m.TenHang, SUM(c.SoLuong) AS SoLuong" +
+                SqlCommand cmd = new SqlCommand("SELECT c.MaHang as 'Mã Hàng', m.TenHang as 'Tên Hàng', SUM(c.SoLuong) AS 'Số Lượng'" +
                                            " FROM HDBan h join CTHDBan c on h.MaHD = c.MaHD, MatHang m" +
                                            " WHERE h.NgayMua  BETWEEN CONVERT(date,'" + txtNgay_Ngay1.Text + "') and CONVERT(date,'" + txtNgay_Ngay2.Text + "') and c.MaHang = m.MaHang" +
                                            " GROUP BY c.MaHang, m.TenHang", connection);
