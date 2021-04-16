@@ -29,68 +29,72 @@ namespace QuanLySieuThi.User_Controls
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.panel1.SuspendLayout();
+            this.panel_Control = new System.Windows.Forms.Panel();
+            this.button_HDBan = new System.Windows.Forms.Button();
+            this.button_HDNhap = new System.Windows.Forms.Button();
+            this.panel_Main = new System.Windows.Forms.Panel();
+            this.panel_Control.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel1
+            // panel_Control
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(170, 537);
-            this.panel1.TabIndex = 0;
+            this.panel_Control.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.panel_Control.Controls.Add(this.button_HDBan);
+            this.panel_Control.Controls.Add(this.button_HDNhap);
+            this.panel_Control.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel_Control.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel_Control.ForeColor = System.Drawing.Color.Black;
+            this.panel_Control.Location = new System.Drawing.Point(0, 0);
+            this.panel_Control.Name = "panel_Control";
+            this.panel_Control.Size = new System.Drawing.Size(170, 537);
+            this.panel_Control.TabIndex = 0;
             // 
-            // panel2
+            // button_HDBan
             // 
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(170, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(990, 537);
-            this.panel2.TabIndex = 1;
+            this.button_HDBan.Location = new System.Drawing.Point(15, 328);
+            this.button_HDBan.Name = "button_HDBan";
+            this.button_HDBan.Size = new System.Drawing.Size(140, 88);
+            this.button_HDBan.TabIndex = 1;
+            this.button_HDBan.Text = "Hóa đơn bán";
+            this.button_HDBan.UseVisualStyleBackColor = true;
+            this.button_HDBan.Click += new System.EventHandler(this.button_HDBan_Click);
             // 
-            // button1
+            // button_HDNhap
             // 
-            this.button1.Location = new System.Drawing.Point(15, 120);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(140, 88);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Hóa đơn nhập";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button_HDNhap.Location = new System.Drawing.Point(15, 120);
+            this.button_HDNhap.Name = "button_HDNhap";
+            this.button_HDNhap.Size = new System.Drawing.Size(140, 88);
+            this.button_HDNhap.TabIndex = 0;
+            this.button_HDNhap.Text = "Hóa đơn nhập";
+            this.button_HDNhap.UseVisualStyleBackColor = true;
+            this.button_HDNhap.Click += new System.EventHandler(this.button_HDNhap_Click);
             // 
-            // button2
+            // panel_Main
             // 
-            this.button2.Location = new System.Drawing.Point(15, 328);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(140, 88);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Hóa đơn bán";
-            this.button2.UseVisualStyleBackColor = true;
+            this.panel_Main.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel_Main.Location = new System.Drawing.Point(170, 0);
+            this.panel_Main.Name = "panel_Main";
+            this.panel_Main.Size = new System.Drawing.Size(990, 537);
+            this.panel_Main.TabIndex = 1;
             // 
             // uc_TaoHoaDon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel_Main);
+            this.Controls.Add(this.panel_Control);
             this.Name = "uc_TaoHoaDon";
             this.Size = new System.Drawing.Size(1160, 537);
-            this.panel1.ResumeLayout(false);
+            this.panel_Control.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Panel panel_Control;
+        private System.Windows.Forms.Panel panel_Main;
+        private System.Windows.Forms.Button button_HDNhap;
+        private System.Windows.Forms.Button button_HDBan;
     }
 }

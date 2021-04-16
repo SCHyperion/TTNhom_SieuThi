@@ -88,17 +88,7 @@
     <Compile Include="Forms\Form_Khachhang.Designer.cs">
       <DependentUpon>Form_Khachhang.cs</DependentUpon>
     </Compile>
-<<<<<<< HEAD
-    <Compile Include="frmHDBan1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmHDBan1.Designer.cs">
-      <DependentUpon>frmHDBan1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmHoaDon.cs">
-=======
     <Compile Include="Forms\frmHoaDon.cs">
->>>>>>> 9b910c3ec8aac5daf4a1d73dc44f96b97d4727d7
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\frmHoaDon.Designer.cs">
@@ -153,6 +143,12 @@
     </Compile>
     <Compile Include="Test.Designer.cs">
       <DependentUpon>Test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\HDNhap.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Controls\HDNhap.Designer.cs">
+      <DependentUpon>HDNhap.cs</DependentUpon>
     </Compile>
     <Compile Include="User Controls\TKDoanhThu.cs">
       <SubType>UserControl</SubType>
@@ -226,14 +222,7 @@
     <EmbeddedResource Include="Forms\Form_Khachhang.resx">
       <DependentUpon>Form_Khachhang.cs</DependentUpon>
     </EmbeddedResource>
-<<<<<<< HEAD
-    <EmbeddedResource Include="frmHDBan1.resx">
-      <DependentUpon>frmHDBan1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmHoaDon.resx">
-=======
     <EmbeddedResource Include="Forms\frmHoaDon.resx">
->>>>>>> 9b910c3ec8aac5daf4a1d73dc44f96b97d4727d7
       <DependentUpon>frmHoaDon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmThongKe.resx">
@@ -269,6 +258,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Test.resx">
       <DependentUpon>Test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Controls\HDNhap.resx">
+      <DependentUpon>HDNhap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="User Controls\TKDoanhThu.resx">
       <DependentUpon>TKDoanhThu.cs</DependentUpon>

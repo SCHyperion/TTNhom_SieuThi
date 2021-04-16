@@ -16,5 +16,18 @@ namespace QuanLySieuThi.User_Controls
         {
             InitializeComponent();
         }
+
+        private void button_HDNhap_Click(object sender, EventArgs e)
+        {
+            HDNhap uc = new HDNhap();
+            panel_Main.Controls.Clear();
+            panel_Main.Controls.Add(uc);
+            uc.Dock = DockStyle.Fill;
+        }
+
+        private void button_HDBan_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
