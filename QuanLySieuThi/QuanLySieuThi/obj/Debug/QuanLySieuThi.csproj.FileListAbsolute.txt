@@ -155,3 +155,5 @@ D:\Testing Ground\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySie
 D:\Testing Ground\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.User_Controls.uc_TaiKhoan.resources
 D:\Testing Ground\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.User_Controls.uc_TaoHoaDon.resources
 D:\Testing Ground\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.User_Controls.HDNhap.resources
+D:\TTNhom\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.User_Controls.HDNhap.resources
+D:\TTNhom\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.User_Controls.uc_TaoHoaDon.resources
