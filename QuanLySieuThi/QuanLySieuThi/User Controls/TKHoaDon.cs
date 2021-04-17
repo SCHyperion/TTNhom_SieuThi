@@ -30,7 +30,7 @@ namespace QuanLySieuThi.User_Controls
             {
                 if (connection.State == ConnectionState.Closed)
                     connection.Open();
-                SqlCommand cmd2 = new SqlCommand("SELECT MaHD AS N'Mã hóa đơn', MaHang AS N'Mã hàng', SoLuong AS N'Số lương' FROM CTHDBan WHERE MaHD = @mahd", connection);
+                SqlCommand cmd2 = new SqlCommand("SELECT c.MaHD AS N'Mã hóa đơn', m.TenHang AS N'Tên hàng', c.SoLuong AS N'Số lương' FROM CTHDBan c, MatHang m WHERE MaHD = @mahd AND c.MaHang = m.MaHang", connection);
                 cmd2.Parameters.AddWithValue("@mahd", txtMaHDBan.Text);
                 SqlDataReader read2 = cmd2.ExecuteReader();
                 DataTable table2 = new DataTable();
@@ -63,7 +63,7 @@ namespace QuanLySieuThi.User_Controls
             {
                 if (connection.State == ConnectionState.Closed)
                     connection.Open();
-                SqlCommand cmd4 = new SqlCommand("SELECT MaHD AS N'Mã hóa đơn', MaHang AS N'Mã hàng', GiaNhap AS N'Giá nhập', Soluong AS N'Số lượng' FROM CTHDNhap WHERE MaHD = @mahd", connection);
+                SqlCommand cmd4 = new SqlCommand("SELECT c.MaHD AS N'Mã hóa đơn', m.TenHang AS N'Tên hàng', c.GiaNhap AS N'Giá nhập', c.SoLuong AS N'Số lượng' FROM CTHDNhap c, MatHang m WHERE MaHD = @mahd AND c.MaHang = m.MaHang", connection);
                 cmd4.Parameters.AddWithValue("@mahd", txtMaHDNhap.Text);
                 SqlDataReader read4 = cmd4.ExecuteReader();
                 DataTable table4 = new DataTable();
@@ -93,7 +93,7 @@ namespace QuanLySieuThi.User_Controls
             {
                 if (connection.State == ConnectionState.Closed)
                     connection.Open();
-                SqlCommand cmd1 = new SqlCommand("SELECT MaHD AS N'Mã hóa đơn', MaKH AS N'Mã khách hàng', NgayMua AS N'Ngày mua' FROM HDBan", connection);
+                SqlCommand cmd1 = new SqlCommand("SELECT h.MaHD AS N'Mã hóa đơn', k.TenKH AS N'Tên khách hàng', h.NgayMua AS N'Ngày mua' FROM HDBan h, KhachHang k Where h.MaKH = k.MaKH", connection);
                 SqlDataReader read1 = cmd1.ExecuteReader();
                 DataTable table1 = new DataTable();
                 table1.Load(read1);
