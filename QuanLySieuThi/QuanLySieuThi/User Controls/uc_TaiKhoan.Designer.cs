@@ -50,10 +50,10 @@ namespace QuanLySieuThi.User_Controls
             // button_Confirm
             // 
             this.button_Confirm.Enabled = false;
-            this.button_Confirm.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_Confirm.Location = new System.Drawing.Point(326, 303);
+            this.button_Confirm.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Confirm.Location = new System.Drawing.Point(537, 329);
             this.button_Confirm.Name = "button_Confirm";
-            this.button_Confirm.Size = new System.Drawing.Size(112, 53);
+            this.button_Confirm.Size = new System.Drawing.Size(163, 82);
             this.button_Confirm.TabIndex = 27;
             this.button_Confirm.Text = "Ghi nhận";
             this.button_Confirm.UseVisualStyleBackColor = true;
@@ -61,10 +61,10 @@ namespace QuanLySieuThi.User_Controls
             // 
             // button_Edit
             // 
-            this.button_Edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_Edit.Location = new System.Drawing.Point(152, 303);
+            this.button_Edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Edit.Location = new System.Drawing.Point(190, 329);
             this.button_Edit.Name = "button_Edit";
-            this.button_Edit.Size = new System.Drawing.Size(112, 53);
+            this.button_Edit.Size = new System.Drawing.Size(163, 82);
             this.button_Edit.TabIndex = 26;
             this.button_Edit.Text = "Sửa thông tin";
             this.button_Edit.UseVisualStyleBackColor = true;
@@ -74,21 +74,21 @@ namespace QuanLySieuThi.User_Controls
             // 
             this.textbox_Pass.BackColor = System.Drawing.SystemColors.Control;
             this.textbox_Pass.Enabled = false;
-            this.textbox_Pass.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textbox_Pass.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textbox_Pass.ForeColor = System.Drawing.Color.Black;
-            this.textbox_Pass.Location = new System.Drawing.Point(252, 240);
+            this.textbox_Pass.Location = new System.Drawing.Point(607, 200);
             this.textbox_Pass.Name = "textbox_Pass";
             this.textbox_Pass.ReadOnly = true;
-            this.textbox_Pass.Size = new System.Drawing.Size(218, 24);
+            this.textbox_Pass.Size = new System.Drawing.Size(218, 29);
             this.textbox_Pass.TabIndex = 25;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(126, 243);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(473, 206);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(66, 16);
+            this.label6.Size = new System.Drawing.Size(85, 20);
             this.label6.TabIndex = 24;
             this.label6.Text = "Mật Khẩu:";
             // 
@@ -96,21 +96,21 @@ namespace QuanLySieuThi.User_Controls
             // 
             this.textbox_SDT.BackColor = System.Drawing.SystemColors.Control;
             this.textbox_SDT.Enabled = false;
-            this.textbox_SDT.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textbox_SDT.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textbox_SDT.ForeColor = System.Drawing.Color.Black;
-            this.textbox_SDT.Location = new System.Drawing.Point(252, 202);
+            this.textbox_SDT.Location = new System.Drawing.Point(607, 125);
             this.textbox_SDT.Name = "textbox_SDT";
             this.textbox_SDT.ReadOnly = true;
-            this.textbox_SDT.Size = new System.Drawing.Size(218, 24);
+            this.textbox_SDT.Size = new System.Drawing.Size(218, 29);
             this.textbox_SDT.TabIndex = 23;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(126, 205);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(473, 131);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(96, 16);
+            this.label5.Size = new System.Drawing.Size(119, 20);
             this.label5.TabIndex = 22;
             this.label5.Text = "Số Điện Thoại:";
             // 
@@ -118,21 +118,21 @@ namespace QuanLySieuThi.User_Controls
             // 
             this.textbox_Luong.BackColor = System.Drawing.SystemColors.Control;
             this.textbox_Luong.Enabled = false;
-            this.textbox_Luong.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textbox_Luong.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textbox_Luong.ForeColor = System.Drawing.Color.Black;
-            this.textbox_Luong.Location = new System.Drawing.Point(252, 163);
+            this.textbox_Luong.Location = new System.Drawing.Point(607, 54);
             this.textbox_Luong.Name = "textbox_Luong";
             this.textbox_Luong.ReadOnly = true;
-            this.textbox_Luong.Size = new System.Drawing.Size(218, 24);
+            this.textbox_Luong.Size = new System.Drawing.Size(218, 29);
             this.textbox_Luong.TabIndex = 21;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(126, 166);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(473, 60);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(102, 16);
+            this.label4.Size = new System.Drawing.Size(128, 20);
             this.label4.TabIndex = 20;
             this.label4.Text = "Lương Hiện Tại:";
             // 
@@ -140,21 +140,21 @@ namespace QuanLySieuThi.User_Controls
             // 
             this.textbox_DiaChi.BackColor = System.Drawing.SystemColors.Control;
             this.textbox_DiaChi.Enabled = false;
-            this.textbox_DiaChi.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textbox_DiaChi.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textbox_DiaChi.ForeColor = System.Drawing.Color.Black;
-            this.textbox_DiaChi.Location = new System.Drawing.Point(252, 125);
+            this.textbox_DiaChi.Location = new System.Drawing.Point(190, 200);
             this.textbox_DiaChi.Name = "textbox_DiaChi";
             this.textbox_DiaChi.ReadOnly = true;
-            this.textbox_DiaChi.Size = new System.Drawing.Size(218, 24);
+            this.textbox_DiaChi.Size = new System.Drawing.Size(218, 29);
             this.textbox_DiaChi.TabIndex = 19;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(126, 128);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(60, 206);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(53, 16);
+            this.label3.Size = new System.Drawing.Size(69, 20);
             this.label3.TabIndex = 18;
             this.label3.Text = "Địa Chỉ:";
             // 
@@ -162,21 +162,21 @@ namespace QuanLySieuThi.User_Controls
             // 
             this.textbox_TenNV.BackColor = System.Drawing.SystemColors.Control;
             this.textbox_TenNV.Enabled = false;
-            this.textbox_TenNV.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textbox_TenNV.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textbox_TenNV.ForeColor = System.Drawing.Color.Black;
-            this.textbox_TenNV.Location = new System.Drawing.Point(252, 89);
+            this.textbox_TenNV.Location = new System.Drawing.Point(190, 125);
             this.textbox_TenNV.Name = "textbox_TenNV";
             this.textbox_TenNV.ReadOnly = true;
-            this.textbox_TenNV.Size = new System.Drawing.Size(218, 24);
+            this.textbox_TenNV.Size = new System.Drawing.Size(218, 29);
             this.textbox_TenNV.TabIndex = 17;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(126, 92);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(60, 131);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(100, 16);
+            this.label2.Size = new System.Drawing.Size(124, 20);
             this.label2.TabIndex = 16;
             this.label2.Text = "Tên Nhân Viên:";
             // 
@@ -184,21 +184,21 @@ namespace QuanLySieuThi.User_Controls
             // 
             this.textbox_MaNV.BackColor = System.Drawing.SystemColors.Control;
             this.textbox_MaNV.Enabled = false;
-            this.textbox_MaNV.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textbox_MaNV.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textbox_MaNV.ForeColor = System.Drawing.Color.Black;
-            this.textbox_MaNV.Location = new System.Drawing.Point(252, 51);
+            this.textbox_MaNV.Location = new System.Drawing.Point(190, 54);
             this.textbox_MaNV.Name = "textbox_MaNV";
             this.textbox_MaNV.ReadOnly = true;
-            this.textbox_MaNV.Size = new System.Drawing.Size(218, 24);
+            this.textbox_MaNV.Size = new System.Drawing.Size(218, 29);
             this.textbox_MaNV.TabIndex = 15;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(126, 54);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(60, 60);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(95, 16);
+            this.label1.Size = new System.Drawing.Size(119, 20);
             this.label1.TabIndex = 14;
             this.label1.Text = "Mã Nhân Viên:";
             // 
@@ -222,18 +222,18 @@ namespace QuanLySieuThi.User_Controls
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.textbox_Luong);
-            this.panel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.ForeColor = System.Drawing.Color.Black;
-            this.panel1.Location = new System.Drawing.Point(200, 75);
+            this.panel1.Location = new System.Drawing.Point(50, 30);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(590, 387);
+            this.panel1.Size = new System.Drawing.Size(890, 477);
             this.panel1.TabIndex = 28;
             // 
             // uc_TaiKhoan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.Controls.Add(this.panel1);
             this.Name = "uc_TaiKhoan";
             this.Size = new System.Drawing.Size(990, 537);

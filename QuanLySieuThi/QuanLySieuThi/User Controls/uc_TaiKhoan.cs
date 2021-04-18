@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.Drawing.Drawing2D;
 
 namespace QuanLySieuThi.User_Controls
 {
@@ -16,11 +17,23 @@ namespace QuanLySieuThi.User_Controls
         int id;
         string pass = "";
         bool writeMode = false;
+        void loadButton()
+        {
+            GraphicsPath path = new GraphicsPath();
+            path.AddEllipse(4, 4, button_Confirm.Width - 8, button_Confirm.Height - 8);
+            button_Confirm.Region = new Region(path);
+            path.Reset();
+
+            path.AddEllipse(4, 4, button_Edit.Width - 8, button_Edit.Height - 8);
+            button_Edit.Region = new Region(path);
+            path.Reset();
+        }
         public uc_TaiKhoan(int id, string pass)
         {
             this.id = id;
             this.pass = pass;
             InitializeComponent();
+            loadButton();
         }
 
         private void button_Edit_Click(object sender, EventArgs e)
@@ -50,8 +63,8 @@ namespace QuanLySieuThi.User_Controls
                         cmd.Parameters.Add("@maNV", SqlDbType.SmallInt).Value = textbox_MaNV.Text;
                         cmd.Parameters.Add("@tenNV", SqlDbType.NVarChar).Value = textbox_TenNV.Text;
                         cmd.Parameters.Add("@diachi", SqlDbType.NVarChar).Value = textbox_DiaChi.Text;
-                        cmd.Parameters.Add("@sodt", SqlDbType.VarChar).Value = textbox_Luong.Text;
-                        cmd.Parameters.Add("@luong", SqlDbType.BigInt).Value = textbox_SDT.Text;
+                        cmd.Parameters.Add("@sodt", SqlDbType.VarChar).Value = textbox_SDT.Text;
+                        cmd.Parameters.Add("@luong", SqlDbType.BigInt).Value = textbox_Luong.Text;
                         cmd.Parameters.Add("@pass", SqlDbType.VarChar).Value = textbox_Pass.Text;
 
                         con.Open();
