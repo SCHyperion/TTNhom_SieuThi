@@ -128,7 +128,7 @@ namespace QuanLySieuThi.User_Controls
             string ngayBan = "";
             try
             {
-                ngayBan = dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString();
+                ngayBan = dataGridView1.Rows[e.RowIndex].Cells["NgayMua"].Value.ToString();
             }
             catch (Exception ex)
             {
@@ -142,21 +142,21 @@ namespace QuanLySieuThi.User_Controls
 
                 try
                 {
-                    string query = "select ngaymua, kh.makh, tenkh, ct.mahd, ct.mahang, mh.TenHang, soluong, giaban, dbo.thongKeBan(ct.mahang, ct.mahd) AS TongTien " +
+                    string query = "select hdb.ngaymua, kh.makh, tenkh, ct.mahd, ct.mahang, mh.TenHang, soluong, giaban, dbo.thongKeBan(ct.mahang, ct.mahd) AS TongTien " +
                                "from KhachHang kh, HDBan hdb, CTHDBan ct, MatHang mh " +
                                "where kh.MaKH = hdb.MaKH and hdb.MaHD = ct.MaHD and ct.MaHang = mh.MaHang and ct.MaHang = '" + maHang + "' and ct.MaHD = '" + maHD + "' ";
                     dataGridView3.DataSource = InstallQuery(query);
 
                     string details = "";
-                    details = details + "Thời gian bán      : " + dataGridView3.Rows[0].Cells[0].Value.ToString();
-                    details = details + "\r\nMã khách hàng   : " + dataGridView3.Rows[0].Cells[1].Value.ToString();
-                    details = details + "\r\nTên khách hàng   : " + dataGridView3.Rows[0].Cells[2].Value.ToString();
-                    details = details + "\r\nMã hóa đơn         : " + dataGridView3.Rows[0].Cells[3].Value.ToString();
-                    details = details + "\r\nMã mặt hàng       : " + dataGridView3.Rows[0].Cells[4].Value.ToString();
-                    details = details + "\r\nTên mặt hàng       : " + dataGridView3.Rows[0].Cells[5].Value.ToString();
-                    details = details + "\r\nSố lượng              : " + dataGridView3.Rows[0].Cells[6].Value.ToString();
-                    details = details + "\r\nGiá bán                : " + dataGridView3.Rows[0].Cells[7].Value.ToString();
-                    details = details + "\r\nTổng tiền             : " + dataGridView3.Rows[0].Cells[8].Value.ToString();
+                    details = details + "Thời gian bán\t: " +       dataGridView3.Rows[0].Cells[0].Value.ToString();
+                    details = details + "\r\nMã khách hàng\t: " +   dataGridView3.Rows[0].Cells[1].Value.ToString();
+                    details = details + "\r\nTên khách hàng\t: " +  dataGridView3.Rows[0].Cells[2].Value.ToString();
+                    details = details + "\r\nMã hóa đơn\t: " +      dataGridView3.Rows[0].Cells[3].Value.ToString();
+                    details = details + "\r\nMã mặt hàng\t: " +     dataGridView3.Rows[0].Cells[4].Value.ToString();
+                    details = details + "\r\nTên mặt hàng\t: " +    dataGridView3.Rows[0].Cells[5].Value.ToString();
+                    details = details + "\r\nSố lượng\t\t: " +      dataGridView3.Rows[0].Cells[6].Value.ToString();
+                    details = details + "\r\nGiá bán\t\t: " +       dataGridView3.Rows[0].Cells[7].Value.ToString();
+                    details = details + "\r\nTổng tiền\t\t: " +     dataGridView3.Rows[0].Cells[8].Value.ToString();
                     textBoxDetail.Text = details;
                 }
                 catch (Exception ex)
