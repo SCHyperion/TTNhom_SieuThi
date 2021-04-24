@@ -41,11 +41,11 @@ namespace QuanLySieuThi.User_Controls
             if (writeMode == false)
             {
                 writeMode = true;
-                textbox_TenNV.Enabled = true; textbox_TenNV.ReadOnly = false;
-                textbox_DiaChi.Enabled = true; textbox_DiaChi.ReadOnly = false;
-                textbox_Luong.Enabled = true; textbox_Luong.ReadOnly = false;
-                textbox_SDT.Enabled = true; textbox_SDT.ReadOnly = false;
-                textbox_Pass.Enabled = true; textbox_Pass.ReadOnly = false;
+                textbox_TenNV.Enabled = true; 
+                textbox_DiaChi.Enabled = true; 
+                textbox_Luong.Enabled = true;
+                textbox_SDT.Enabled = true; 
+                textbox_Pass.Enabled = true; 
                 button_Confirm.Enabled = true;
             }
         }

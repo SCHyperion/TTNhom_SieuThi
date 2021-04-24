@@ -78,7 +78,6 @@ namespace QuanLySieuThi.User_Controls
             this.textbox_Pass.ForeColor = System.Drawing.Color.Black;
             this.textbox_Pass.Location = new System.Drawing.Point(607, 200);
             this.textbox_Pass.Name = "textbox_Pass";
-            this.textbox_Pass.ReadOnly = true;
             this.textbox_Pass.Size = new System.Drawing.Size(218, 29);
             this.textbox_Pass.TabIndex = 25;
             // 
@@ -100,7 +99,6 @@ namespace QuanLySieuThi.User_Controls
             this.textbox_SDT.ForeColor = System.Drawing.Color.Black;
             this.textbox_SDT.Location = new System.Drawing.Point(607, 125);
             this.textbox_SDT.Name = "textbox_SDT";
-            this.textbox_SDT.ReadOnly = true;
             this.textbox_SDT.Size = new System.Drawing.Size(218, 29);
             this.textbox_SDT.TabIndex = 23;
             // 
@@ -122,7 +120,6 @@ namespace QuanLySieuThi.User_Controls
             this.textbox_Luong.ForeColor = System.Drawing.Color.Black;
             this.textbox_Luong.Location = new System.Drawing.Point(607, 54);
             this.textbox_Luong.Name = "textbox_Luong";
-            this.textbox_Luong.ReadOnly = true;
             this.textbox_Luong.Size = new System.Drawing.Size(218, 29);
             this.textbox_Luong.TabIndex = 21;
             // 
@@ -144,7 +141,6 @@ namespace QuanLySieuThi.User_Controls
             this.textbox_DiaChi.ForeColor = System.Drawing.Color.Black;
             this.textbox_DiaChi.Location = new System.Drawing.Point(190, 200);
             this.textbox_DiaChi.Name = "textbox_DiaChi";
-            this.textbox_DiaChi.ReadOnly = true;
             this.textbox_DiaChi.Size = new System.Drawing.Size(218, 29);
             this.textbox_DiaChi.TabIndex = 19;
             // 
@@ -166,7 +162,6 @@ namespace QuanLySieuThi.User_Controls
             this.textbox_TenNV.ForeColor = System.Drawing.Color.Black;
             this.textbox_TenNV.Location = new System.Drawing.Point(190, 125);
             this.textbox_TenNV.Name = "textbox_TenNV";
-            this.textbox_TenNV.ReadOnly = true;
             this.textbox_TenNV.Size = new System.Drawing.Size(218, 29);
             this.textbox_TenNV.TabIndex = 17;
             // 
@@ -188,7 +183,6 @@ namespace QuanLySieuThi.User_Controls
             this.textbox_MaNV.ForeColor = System.Drawing.Color.Black;
             this.textbox_MaNV.Location = new System.Drawing.Point(190, 54);
             this.textbox_MaNV.Name = "textbox_MaNV";
-            this.textbox_MaNV.ReadOnly = true;
             this.textbox_MaNV.Size = new System.Drawing.Size(218, 29);
             this.textbox_MaNV.TabIndex = 15;
             // 
@@ -207,7 +201,7 @@ namespace QuanLySieuThi.User_Controls
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.panel1.BackColor = System.Drawing.Color.Silver;
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.button_Confirm);
             this.panel1.Controls.Add(this.textbox_MaNV);
