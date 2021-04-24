@@ -196,3 +196,4 @@ C:\Users\User\OneDrive\Desktop\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\De
 C:\Users\User\OneDrive\Desktop\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.exe
 C:\Users\User\OneDrive\Desktop\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.pdb
 C:\Users\User\OneDrive\Desktop\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.frmHDBan1.resources
+D:\TTNhom\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.frmHDBan1.resources
