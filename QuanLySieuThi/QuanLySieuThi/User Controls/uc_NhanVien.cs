@@ -261,13 +261,13 @@ namespace QuanLySieuThi.User_Controls
                 if (rbtnTenNV.Checked == true)
                 {
 
-                    string que = "select * from NhanVien Where TenNV like N'" + txbTimKiemNV.Text + "'";
+                    string que = "select * from NhanVien Where TenNV like N'%" + txbTimKiemNV.Text + "%'";
                     dtgvNV.DataSource = ExecuteQuery(que);
                 }
                 else
                 {
 
-                    string que = "select * from NhanVien Where MaNV = N'" + txbTimKiemNV.Text + "'";
+                    string que = "select * from NhanVien Where MaNV = N'%" + txbTimKiemNV.Text + "%'";
                     dtgvNV.DataSource = ExecuteQuery(que);
                 }
             }
