@@ -267,7 +267,7 @@ namespace QuanLySieuThi.User_Controls
                 else
                 {
 
-                    string que = "select * from NhanVien Where MaNV = N'%" + txbTimKiemNV.Text + "%'";
+                    string que = "select * from NhanVien Where MaNV like N'%" + txbTimKiemNV.Text + "%'";
                     dtgvNV.DataSource = ExecuteQuery(que);
                 }
             }
