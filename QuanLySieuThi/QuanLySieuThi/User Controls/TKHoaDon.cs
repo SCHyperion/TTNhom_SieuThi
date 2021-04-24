@@ -49,7 +49,7 @@ namespace QuanLySieuThi.User_Controls
         {
             int i = CTHDBan.CurrentRow.Index;
             txtMaHDBanCT.Text = CTHDBan.Rows[i].Cells[0].Value.ToString();
-            txtMaHangBan.Text = CTHDBan.Rows[i].Cells[1].Value.ToString();
+            txtTenHangBan.Text = CTHDBan.Rows[i].Cells[1].Value.ToString();
             txtSoLuongBan.Text = CTHDBan.Rows[i].Cells[2].Value.ToString();
         }
 
@@ -82,7 +82,7 @@ namespace QuanLySieuThi.User_Controls
         {
             int i = CTHDNhap.CurrentRow.Index;
             txtMaHDNhapCT.Text = CTHDNhap.Rows[i].Cells[0].Value.ToString();
-            txtMaHangNhap.Text = CTHDNhap.Rows[i].Cells[1].Value.ToString();
+            txtTenHangNhap.Text = CTHDNhap.Rows[i].Cells[1].Value.ToString();
             txtGiaNhap.Text = CTHDNhap.Rows[i].Cells[2].Value.ToString();
             txtSoLuongNhap.Text = CTHDNhap.Rows[i].Cells[3].Value.ToString();
         }
