@@ -18,9 +18,11 @@ namespace QuanLySieuThi
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new FormMain(1, "1"));
-            Application.Run(new frmHDBan1());
+            //Application.Run(new frmHoaDon());
+            //Application.Run(new MainForm(1, "1"));
             //Application.Run(new Test());
             //Application.Run(new Login());
+            Application.Run(new frmHoaDon());
         }
     }
 }

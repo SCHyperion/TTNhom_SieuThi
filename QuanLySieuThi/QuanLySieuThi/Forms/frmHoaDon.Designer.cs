@@ -31,6 +31,9 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btn_XoaCTHD = new System.Windows.Forms.Button();
+            this.btn_SuaCTHD = new System.Windows.Forms.Button();
+            this.btn_ThemCTHD = new System.Windows.Forms.Button();
             this.txtSoLuongBan = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.txtMaHangBan = new System.Windows.Forms.TextBox();
@@ -40,6 +43,9 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.CTHDBan = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btn_Xoa_HD = new System.Windows.Forms.Button();
+            this.btn_Sua_HD = new System.Windows.Forms.Button();
+            this.btn_Them_HD = new System.Windows.Forms.Button();
             this.dateTimeNgayMua = new System.Windows.Forms.DateTimePicker();
             this.label6 = new System.Windows.Forms.Label();
             this.txtMaKH = new System.Windows.Forms.TextBox();
@@ -112,6 +118,9 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.LightCyan;
+            this.panel2.Controls.Add(this.btn_XoaCTHD);
+            this.panel2.Controls.Add(this.btn_SuaCTHD);
+            this.panel2.Controls.Add(this.btn_ThemCTHD);
             this.panel2.Controls.Add(this.txtSoLuongBan);
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.txtMaHangBan);
@@ -124,6 +133,36 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(479, 492);
             this.panel2.TabIndex = 2;
+            // 
+            // btn_XoaCTHD
+            // 
+            this.btn_XoaCTHD.Location = new System.Drawing.Point(374, 425);
+            this.btn_XoaCTHD.Name = "btn_XoaCTHD";
+            this.btn_XoaCTHD.Size = new System.Drawing.Size(69, 31);
+            this.btn_XoaCTHD.TabIndex = 13;
+            this.btn_XoaCTHD.Text = "Xóa";
+            this.btn_XoaCTHD.UseVisualStyleBackColor = true;
+            this.btn_XoaCTHD.Click += new System.EventHandler(this.btn_XoaCTHD_Click);
+            // 
+            // btn_SuaCTHD
+            // 
+            this.btn_SuaCTHD.Location = new System.Drawing.Point(374, 382);
+            this.btn_SuaCTHD.Name = "btn_SuaCTHD";
+            this.btn_SuaCTHD.Size = new System.Drawing.Size(69, 29);
+            this.btn_SuaCTHD.TabIndex = 12;
+            this.btn_SuaCTHD.Text = "Sửa";
+            this.btn_SuaCTHD.UseVisualStyleBackColor = true;
+            this.btn_SuaCTHD.Click += new System.EventHandler(this.btn_SuaCTHD_Click);
+            // 
+            // btn_ThemCTHD
+            // 
+            this.btn_ThemCTHD.Location = new System.Drawing.Point(374, 330);
+            this.btn_ThemCTHD.Name = "btn_ThemCTHD";
+            this.btn_ThemCTHD.Size = new System.Drawing.Size(69, 28);
+            this.btn_ThemCTHD.TabIndex = 11;
+            this.btn_ThemCTHD.Text = "Thêm";
+            this.btn_ThemCTHD.UseVisualStyleBackColor = true;
+            this.btn_ThemCTHD.Click += new System.EventHandler(this.btnThem_CTHD_Click);
             // 
             // txtSoLuongBan
             // 
@@ -205,6 +244,9 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.PapayaWhip;
+            this.panel1.Controls.Add(this.btn_Xoa_HD);
+            this.panel1.Controls.Add(this.btn_Sua_HD);
+            this.panel1.Controls.Add(this.btn_Them_HD);
             this.panel1.Controls.Add(this.dateTimeNgayMua);
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.txtMaKH);
@@ -217,6 +259,36 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(472, 494);
             this.panel1.TabIndex = 1;
+            // 
+            // btn_Xoa_HD
+            // 
+            this.btn_Xoa_HD.Location = new System.Drawing.Point(361, 426);
+            this.btn_Xoa_HD.Name = "btn_Xoa_HD";
+            this.btn_Xoa_HD.Size = new System.Drawing.Size(66, 31);
+            this.btn_Xoa_HD.TabIndex = 9;
+            this.btn_Xoa_HD.Text = "Xóa";
+            this.btn_Xoa_HD.UseVisualStyleBackColor = true;
+            this.btn_Xoa_HD.Click += new System.EventHandler(this.btn_XoaHD_Click);
+            // 
+            // btn_Sua_HD
+            // 
+            this.btn_Sua_HD.Location = new System.Drawing.Point(361, 381);
+            this.btn_Sua_HD.Name = "btn_Sua_HD";
+            this.btn_Sua_HD.Size = new System.Drawing.Size(66, 31);
+            this.btn_Sua_HD.TabIndex = 8;
+            this.btn_Sua_HD.Text = "Sửa";
+            this.btn_Sua_HD.UseVisualStyleBackColor = true;
+            this.btn_Sua_HD.Click += new System.EventHandler(this.btn_SuaHD_Click);
+            // 
+            // btn_Them_HD
+            // 
+            this.btn_Them_HD.Location = new System.Drawing.Point(361, 331);
+            this.btn_Them_HD.Name = "btn_Them_HD";
+            this.btn_Them_HD.Size = new System.Drawing.Size(66, 31);
+            this.btn_Them_HD.TabIndex = 7;
+            this.btn_Them_HD.Text = "Thêm";
+            this.btn_Them_HD.UseVisualStyleBackColor = true;
+            this.btn_Them_HD.Click += new System.EventHandler(this.btn_Them_HD_Click);
             // 
             // dateTimeNgayMua
             // 
@@ -571,5 +643,11 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.DataGridView HDNhap;
+        private System.Windows.Forms.Button btn_Them_HD;
+        private System.Windows.Forms.Button btn_ThemCTHD;
+        private System.Windows.Forms.Button btn_XoaCTHD;
+        private System.Windows.Forms.Button btn_SuaCTHD;
+        private System.Windows.Forms.Button btn_Xoa_HD;
+        private System.Windows.Forms.Button btn_Sua_HD;
     }
 }
