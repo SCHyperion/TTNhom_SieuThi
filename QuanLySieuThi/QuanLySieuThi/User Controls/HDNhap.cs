@@ -87,6 +87,7 @@ namespace QuanLySieuThi.User_Controls
 
         private void HDNhap_Load(object sender, EventArgs e)
         {
+            loadButton();
             init_ListHD();
             init_ListSP();
             dgv_Current.Columns.Add("col1", "Mã Hàng");

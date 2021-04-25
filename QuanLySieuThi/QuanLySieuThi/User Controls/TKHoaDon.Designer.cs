@@ -36,7 +36,7 @@ namespace QuanLySieuThi.User_Controls
             this.label11 = new System.Windows.Forms.Label();
             this.txtGiaNhap = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.txtMaHangNhap = new System.Windows.Forms.TextBox();
+            this.txtTenHangNhap = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.txtMaHDNhapCT = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
@@ -54,7 +54,7 @@ namespace QuanLySieuThi.User_Controls
             this.panel2 = new System.Windows.Forms.Panel();
             this.txtSoLuongBan = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.txtMaHangBan = new System.Windows.Forms.TextBox();
+            this.txtTenHangBan = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.txtMaHDBanCT = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -89,9 +89,9 @@ namespace QuanLySieuThi.User_Controls
             // 
             this.groupBox3.Controls.Add(this.HDNhap);
             this.groupBox3.Location = new System.Drawing.Point(18, 24);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox3.Size = new System.Drawing.Size(454, 303);
             this.groupBox3.TabIndex = 0;
             this.groupBox3.TabStop = false;
@@ -103,7 +103,7 @@ namespace QuanLySieuThi.User_Controls
             this.HDNhap.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.HDNhap.Dock = System.Windows.Forms.DockStyle.Fill;
             this.HDNhap.Location = new System.Drawing.Point(2, 17);
-            this.HDNhap.Margin = new System.Windows.Forms.Padding(2);
+            this.HDNhap.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.HDNhap.Name = "HDNhap";
             this.HDNhap.RowHeadersWidth = 51;
             this.HDNhap.RowTemplate.Height = 24;
@@ -118,7 +118,7 @@ namespace QuanLySieuThi.User_Controls
             this.panel4.Controls.Add(this.label11);
             this.panel4.Controls.Add(this.txtGiaNhap);
             this.panel4.Controls.Add(this.label10);
-            this.panel4.Controls.Add(this.txtMaHangNhap);
+            this.panel4.Controls.Add(this.txtTenHangNhap);
             this.panel4.Controls.Add(this.label9);
             this.panel4.Controls.Add(this.txtMaHDNhapCT);
             this.panel4.Controls.Add(this.label8);
@@ -127,7 +127,7 @@ namespace QuanLySieuThi.User_Controls
             this.panel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel4.ForeColor = System.Drawing.Color.Black;
             this.panel4.Location = new System.Drawing.Point(493, 2);
-            this.panel4.Margin = new System.Windows.Forms.Padding(2);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(487, 504);
             this.panel4.TabIndex = 1;
@@ -136,7 +136,7 @@ namespace QuanLySieuThi.User_Controls
             // 
             this.txtSoLuongNhap.ForeColor = System.Drawing.Color.Black;
             this.txtSoLuongNhap.Location = new System.Drawing.Point(329, 436);
-            this.txtSoLuongNhap.Margin = new System.Windows.Forms.Padding(2);
+            this.txtSoLuongNhap.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtSoLuongNhap.Name = "txtSoLuongNhap";
             this.txtSoLuongNhap.Size = new System.Drawing.Size(143, 22);
             this.txtSoLuongNhap.TabIndex = 10;
@@ -155,7 +155,7 @@ namespace QuanLySieuThi.User_Controls
             // 
             this.txtGiaNhap.ForeColor = System.Drawing.Color.Black;
             this.txtGiaNhap.Location = new System.Drawing.Point(104, 436);
-            this.txtGiaNhap.Margin = new System.Windows.Forms.Padding(2);
+            this.txtGiaNhap.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtGiaNhap.Name = "txtGiaNhap";
             this.txtGiaNhap.Size = new System.Drawing.Size(143, 22);
             this.txtGiaNhap.TabIndex = 8;
@@ -170,14 +170,14 @@ namespace QuanLySieuThi.User_Controls
             this.label10.TabIndex = 7;
             this.label10.Text = "Giá nhập:";
             // 
-            // txtMaHangNhap
+            // txtTenHangNhap
             // 
-            this.txtMaHangNhap.ForeColor = System.Drawing.Color.Black;
-            this.txtMaHangNhap.Location = new System.Drawing.Point(329, 381);
-            this.txtMaHangNhap.Margin = new System.Windows.Forms.Padding(2);
-            this.txtMaHangNhap.Name = "txtMaHangNhap";
-            this.txtMaHangNhap.Size = new System.Drawing.Size(143, 22);
-            this.txtMaHangNhap.TabIndex = 6;
+            this.txtTenHangNhap.ForeColor = System.Drawing.Color.Black;
+            this.txtTenHangNhap.Location = new System.Drawing.Point(329, 381);
+            this.txtTenHangNhap.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTenHangNhap.Name = "txtTenHangNhap";
+            this.txtTenHangNhap.Size = new System.Drawing.Size(143, 22);
+            this.txtTenHangNhap.TabIndex = 6;
             // 
             // label9
             // 
@@ -185,15 +185,15 @@ namespace QuanLySieuThi.User_Controls
             this.label9.Location = new System.Drawing.Point(262, 384);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(63, 16);
+            this.label9.Size = new System.Drawing.Size(68, 16);
             this.label9.TabIndex = 5;
-            this.label9.Text = "Mã hàng:";
+            this.label9.Text = "Tên hàng:";
             // 
             // txtMaHDNhapCT
             // 
             this.txtMaHDNhapCT.ForeColor = System.Drawing.Color.Black;
             this.txtMaHDNhapCT.Location = new System.Drawing.Point(104, 381);
-            this.txtMaHDNhapCT.Margin = new System.Windows.Forms.Padding(2);
+            this.txtMaHDNhapCT.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtMaHDNhapCT.Name = "txtMaHDNhapCT";
             this.txtMaHDNhapCT.Size = new System.Drawing.Size(143, 22);
             this.txtMaHDNhapCT.TabIndex = 4;
@@ -212,9 +212,9 @@ namespace QuanLySieuThi.User_Controls
             // 
             this.groupBox4.Controls.Add(this.CTHDNhap);
             this.groupBox4.Location = new System.Drawing.Point(19, 24);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox4.Size = new System.Drawing.Size(454, 303);
             this.groupBox4.TabIndex = 0;
             this.groupBox4.TabStop = false;
@@ -226,7 +226,7 @@ namespace QuanLySieuThi.User_Controls
             this.CTHDNhap.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.CTHDNhap.Dock = System.Windows.Forms.DockStyle.Fill;
             this.CTHDNhap.Location = new System.Drawing.Point(2, 17);
-            this.CTHDNhap.Margin = new System.Windows.Forms.Padding(2);
+            this.CTHDNhap.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CTHDNhap.Name = "CTHDNhap";
             this.CTHDNhap.RowHeadersWidth = 51;
             this.CTHDNhap.RowTemplate.Height = 24;
@@ -239,9 +239,9 @@ namespace QuanLySieuThi.User_Controls
             this.tabPage2.Controls.Add(this.panel4);
             this.tabPage2.Controls.Add(this.panel3);
             this.tabPage2.Location = new System.Drawing.Point(4, 25);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(2);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(2);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabPage2.Size = new System.Drawing.Size(982, 508);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Hóa đơn nhập";
@@ -259,7 +259,7 @@ namespace QuanLySieuThi.User_Controls
             this.panel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel3.ForeColor = System.Drawing.Color.Black;
             this.panel3.Location = new System.Drawing.Point(2, 2);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(491, 504);
             this.panel3.TabIndex = 0;
@@ -268,7 +268,7 @@ namespace QuanLySieuThi.User_Controls
             // 
             this.dateTimeNgayNhap.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimeNgayNhap.Location = new System.Drawing.Point(218, 434);
-            this.dateTimeNgayNhap.Margin = new System.Windows.Forms.Padding(2);
+            this.dateTimeNgayNhap.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dateTimeNgayNhap.Name = "dateTimeNgayNhap";
             this.dateTimeNgayNhap.Size = new System.Drawing.Size(143, 22);
             this.dateTimeNgayNhap.TabIndex = 12;
@@ -287,7 +287,7 @@ namespace QuanLySieuThi.User_Controls
             // 
             this.txtMaHDNhap.ForeColor = System.Drawing.Color.Black;
             this.txtMaHDNhap.Location = new System.Drawing.Point(218, 381);
-            this.txtMaHDNhap.Margin = new System.Windows.Forms.Padding(2);
+            this.txtMaHDNhap.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtMaHDNhap.Name = "txtMaHDNhap";
             this.txtMaHDNhap.Size = new System.Drawing.Size(143, 22);
             this.txtMaHDNhap.TabIndex = 2;
@@ -308,7 +308,7 @@ namespace QuanLySieuThi.User_Controls
             this.HDBan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.HDBan.Dock = System.Windows.Forms.DockStyle.Fill;
             this.HDBan.Location = new System.Drawing.Point(2, 17);
-            this.HDBan.Margin = new System.Windows.Forms.Padding(2);
+            this.HDBan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.HDBan.Name = "HDBan";
             this.HDBan.RowHeadersWidth = 51;
             this.HDBan.RowTemplate.Height = 24;
@@ -323,7 +323,7 @@ namespace QuanLySieuThi.User_Controls
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(2);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(990, 537);
@@ -334,9 +334,9 @@ namespace QuanLySieuThi.User_Controls
             this.tabPage1.Controls.Add(this.panel2);
             this.tabPage1.Controls.Add(this.panel1);
             this.tabPage1.Location = new System.Drawing.Point(4, 25);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(2);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(2);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabPage1.Size = new System.Drawing.Size(982, 508);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Hóa đơn bán";
@@ -347,7 +347,7 @@ namespace QuanLySieuThi.User_Controls
             this.panel2.BackColor = System.Drawing.Color.LightCyan;
             this.panel2.Controls.Add(this.txtSoLuongBan);
             this.panel2.Controls.Add(this.label5);
-            this.panel2.Controls.Add(this.txtMaHangBan);
+            this.panel2.Controls.Add(this.txtTenHangBan);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.txtMaHDBanCT);
             this.panel2.Controls.Add(this.label3);
@@ -356,7 +356,7 @@ namespace QuanLySieuThi.User_Controls
             this.panel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel2.ForeColor = System.Drawing.Color.Black;
             this.panel2.Location = new System.Drawing.Point(493, 2);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(487, 504);
             this.panel2.TabIndex = 2;
@@ -365,7 +365,7 @@ namespace QuanLySieuThi.User_Controls
             // 
             this.txtSoLuongBan.ForeColor = System.Drawing.Color.Black;
             this.txtSoLuongBan.Location = new System.Drawing.Point(224, 441);
-            this.txtSoLuongBan.Margin = new System.Windows.Forms.Padding(2);
+            this.txtSoLuongBan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtSoLuongBan.Name = "txtSoLuongBan";
             this.txtSoLuongBan.Size = new System.Drawing.Size(143, 22);
             this.txtSoLuongBan.TabIndex = 10;
@@ -380,14 +380,14 @@ namespace QuanLySieuThi.User_Controls
             this.label5.TabIndex = 9;
             this.label5.Text = "Số lượng:";
             // 
-            // txtMaHangBan
+            // txtTenHangBan
             // 
-            this.txtMaHangBan.ForeColor = System.Drawing.Color.Black;
-            this.txtMaHangBan.Location = new System.Drawing.Point(224, 403);
-            this.txtMaHangBan.Margin = new System.Windows.Forms.Padding(2);
-            this.txtMaHangBan.Name = "txtMaHangBan";
-            this.txtMaHangBan.Size = new System.Drawing.Size(143, 22);
-            this.txtMaHangBan.TabIndex = 8;
+            this.txtTenHangBan.ForeColor = System.Drawing.Color.Black;
+            this.txtTenHangBan.Location = new System.Drawing.Point(224, 403);
+            this.txtTenHangBan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTenHangBan.Name = "txtTenHangBan";
+            this.txtTenHangBan.Size = new System.Drawing.Size(143, 22);
+            this.txtTenHangBan.TabIndex = 8;
             // 
             // label4
             // 
@@ -395,15 +395,15 @@ namespace QuanLySieuThi.User_Controls
             this.label4.Location = new System.Drawing.Point(138, 406);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(63, 16);
+            this.label4.Size = new System.Drawing.Size(68, 16);
             this.label4.TabIndex = 7;
-            this.label4.Text = "Mã hàng:";
+            this.label4.Text = "Tên hàng:";
             // 
             // txtMaHDBanCT
             // 
             this.txtMaHDBanCT.ForeColor = System.Drawing.Color.Black;
             this.txtMaHDBanCT.Location = new System.Drawing.Point(224, 364);
-            this.txtMaHDBanCT.Margin = new System.Windows.Forms.Padding(2);
+            this.txtMaHDBanCT.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtMaHDBanCT.Name = "txtMaHDBanCT";
             this.txtMaHDBanCT.Size = new System.Drawing.Size(143, 22);
             this.txtMaHDBanCT.TabIndex = 6;
@@ -422,9 +422,9 @@ namespace QuanLySieuThi.User_Controls
             // 
             this.groupBox2.Controls.Add(this.CTHDBan);
             this.groupBox2.Location = new System.Drawing.Point(19, 24);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox2.Size = new System.Drawing.Size(454, 303);
             this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
@@ -436,7 +436,7 @@ namespace QuanLySieuThi.User_Controls
             this.CTHDBan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.CTHDBan.Dock = System.Windows.Forms.DockStyle.Fill;
             this.CTHDBan.Location = new System.Drawing.Point(2, 17);
-            this.CTHDBan.Margin = new System.Windows.Forms.Padding(2);
+            this.CTHDBan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CTHDBan.Name = "CTHDBan";
             this.CTHDBan.RowHeadersWidth = 51;
             this.CTHDBan.RowTemplate.Height = 24;
@@ -458,7 +458,7 @@ namespace QuanLySieuThi.User_Controls
             this.panel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.ForeColor = System.Drawing.Color.Black;
             this.panel1.Location = new System.Drawing.Point(2, 2);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(491, 504);
             this.panel1.TabIndex = 1;
@@ -467,7 +467,7 @@ namespace QuanLySieuThi.User_Controls
             // 
             this.dateTimeNgayMua.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimeNgayMua.Location = new System.Drawing.Point(220, 439);
-            this.dateTimeNgayMua.Margin = new System.Windows.Forms.Padding(2);
+            this.dateTimeNgayMua.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dateTimeNgayMua.Name = "dateTimeNgayMua";
             this.dateTimeNgayMua.Size = new System.Drawing.Size(143, 22);
             this.dateTimeNgayMua.TabIndex = 6;
@@ -486,7 +486,7 @@ namespace QuanLySieuThi.User_Controls
             // 
             this.txtMaKH.ForeColor = System.Drawing.Color.Black;
             this.txtMaKH.Location = new System.Drawing.Point(220, 403);
-            this.txtMaKH.Margin = new System.Windows.Forms.Padding(2);
+            this.txtMaKH.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtMaKH.Name = "txtMaKH";
             this.txtMaKH.Size = new System.Drawing.Size(143, 22);
             this.txtMaKH.TabIndex = 4;
@@ -497,15 +497,15 @@ namespace QuanLySieuThi.User_Controls
             this.label2.Location = new System.Drawing.Point(114, 406);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(102, 16);
+            this.label2.Size = new System.Drawing.Size(107, 16);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Mã khách hàng:";
+            this.label2.Text = "Tên khách hàng:";
             // 
             // txtMaHDBan
             // 
             this.txtMaHDBan.ForeColor = System.Drawing.Color.Black;
             this.txtMaHDBan.Location = new System.Drawing.Point(220, 364);
-            this.txtMaHDBan.Margin = new System.Windows.Forms.Padding(2);
+            this.txtMaHDBan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtMaHDBan.Name = "txtMaHDBan";
             this.txtMaHDBan.Size = new System.Drawing.Size(143, 22);
             this.txtMaHDBan.TabIndex = 2;
@@ -524,9 +524,9 @@ namespace QuanLySieuThi.User_Controls
             // 
             this.groupBox1.Controls.Add(this.HDBan);
             this.groupBox1.Location = new System.Drawing.Point(18, 24);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox1.Size = new System.Drawing.Size(454, 303);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
@@ -572,7 +572,7 @@ namespace QuanLySieuThi.User_Controls
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.TextBox txtGiaNhap;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox txtMaHangNhap;
+        private System.Windows.Forms.TextBox txtTenHangNhap;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox txtMaHDNhapCT;
         private System.Windows.Forms.Label label8;
@@ -590,7 +590,7 @@ namespace QuanLySieuThi.User_Controls
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.TextBox txtSoLuongBan;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txtMaHangBan;
+        private System.Windows.Forms.TextBox txtTenHangBan;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtMaHDBanCT;
         private System.Windows.Forms.Label label3;

@@ -21,10 +21,8 @@ namespace QuanLySieuThi
         }
         void NapMaKH()
         {
-            
-
-            string connectionStr = @"Data Source=DESKTOP-53IQ0S1\SQLEXPRESS;Initial Catalog=QLSieuThi;Integrated Security=True";
-            SqlConnection connection = new SqlConnection(connectionStr);
+            //string connectionStr = @"Data Source=DESKTOP-53IQ0S1\SQLEXPRESS;Initial Catalog=QLSieuThi;Integrated Security=True";
+            SqlConnection connection = new SqlConnection(ConnectionString.str);
             string query = "select  MaKH from KhachHang ";
             connection.Open();
             SqlCommand command = new SqlCommand(query, connection);
@@ -35,14 +33,12 @@ namespace QuanLySieuThi
             cboMaKH.DataSource = data;
             cboMaKH.ValueMember = "MaKH";
             cboMaKH.DisplayMember = "MaKH";
-
-
-
         }
+
         void NapTenHang()
         {
-            string connectionStr = @"Data Source=DESKTOP-53IQ0S1\SQLEXPRESS;Initial Catalog=QLSieuThi;Integrated Security=True";
-            SqlConnection connection = new SqlConnection(connectionStr);
+            //string connectionStr = @"Data Source=DESKTOP-53IQ0S1\SQLEXPRESS;Initial Catalog=QLSieuThi;Integrated Security=True";
+            SqlConnection connection = new SqlConnection(ConnectionString.str);
             string query = "select TenHang from MatHang  ";
             connection.Open();
             SqlCommand command = new SqlCommand(query, connection);
@@ -61,8 +57,8 @@ namespace QuanLySieuThi
             
             NapTenHang();
 
-            string connectionStr = @"Data Source=DESKTOP-53IQ0S1\SQLEXPRESS;Initial Catalog=QLSieuThi;Integrated Security=True";
-            SqlConnection connection = new SqlConnection(connectionStr);
+            //string connectionStr = @"Data Source=DESKTOP-53IQ0S1\SQLEXPRESS;Initial Catalog=QLSieuThi;Integrated Security=True";
+            SqlConnection connection = new SqlConnection(ConnectionString.str);
             string query = @"select CTHDBan.MaHD, CTHDBan.MaHang, MatHang.TenHang, CTHDBan.SoLuong, 
                             MatHang.GiaBan,CTHDBan.SoLuong * MatHang.GiaBan as ThanhTien
                             from CTHDBan, MatHang
@@ -89,20 +85,12 @@ namespace QuanLySieuThi
 
             }
             txtTongTien.Text = tongtien.ToString();
-
-
-
-
-
-
-
-
         }
 
         private DataTable doDuLieuRaDataTabe()
         {
-            string connectionStr = @"Data Source=DESKTOP-53IQ0S1\SQLEXPRESS;Initial Catalog=QLSieuThi;Integrated Security=True";
-            SqlConnection connection = new SqlConnection(connectionStr);
+            //string connectionStr = @"Data Source=DESKTOP-53IQ0S1\SQLEXPRESS;Initial Catalog=QLSieuThi;Integrated Security=True";
+            SqlConnection connection = new SqlConnection(ConnectionString.str);
             string query = @"select * from HDBan";
             connection.Open();
             SqlCommand command = new SqlCommand(query, connection);
@@ -138,11 +126,6 @@ namespace QuanLySieuThi
             //Hiện ra dữ liệu trong hóa đơn Bán tương ứng với MÃ Hóa Đơn = i
         }
 
-
-
-
-       
-
         private void button2_Click(object sender, EventArgs e)//button cuoi cung
         {
             DataTable data = new DataTable();
@@ -155,17 +138,13 @@ namespace QuanLySieuThi
 
             }
 
-
         }
 
-       
 
         private void Form2_Load(object sender, EventArgs e)
         {
             DataTable data = new DataTable();
             data = doDuLieuRaDataTabe();
-
-
 
             NapMaKH();
             NapTenHang();
@@ -177,7 +156,6 @@ namespace QuanLySieuThi
                 // lấy trong database dòng thứ 2 
                 DiChuyen(ViTri);
                 NapChiTietHD(txtMaHD.Text);
-
 
             }
         }
@@ -194,7 +172,6 @@ namespace QuanLySieuThi
                 DiChuyen(ViTri);
                 NapChiTietHD(txtMaHD.Text);
 
-
             }
         }
 
@@ -208,7 +185,6 @@ namespace QuanLySieuThi
                 DiChuyen(ViTri);
                 NapChiTietHD(txtMaHD.Text);
 
-
             }
         }
 
@@ -221,7 +197,6 @@ namespace QuanLySieuThi
                 ViTri += 1;
                 DiChuyen(ViTri);
                 NapChiTietHD(txtMaHD.Text);
-
 
             }
         }
