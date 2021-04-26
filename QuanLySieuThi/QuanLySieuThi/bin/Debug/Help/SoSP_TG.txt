@@ -1,0 +1,2 @@
+﻿
+Thống kê sản phẩm theo khoảng thời gian: cần nhập khoản thời gian cần thống kê sản phẩm vào 2 ô text sau đó nhấn nút Thống kê, danh sách các mặt hàng được mua trong khoảng thời gian đó sẽ được hiển thị trong bảng Chi tiết mặt hàng

@@ -1,0 +1,6 @@
+﻿
+Form Thông tin hóa đơn có chức năng hiển thị thông tin hóa đơn bán và hóa đơn nhập
+
+Thông tin cơ bản sẽ được hiển thị trong bảng Hóa đơn bán và các thành phần cụ thể sẽ được hiển thị ở các ô text bên dưới
+
+Các thông tin chi tiết sẽ được hiển thị ở bảng Chi tiết hóa đơn bán và các thành phần cụ thể sẽ được hiển thị ở các ô text bên dưới

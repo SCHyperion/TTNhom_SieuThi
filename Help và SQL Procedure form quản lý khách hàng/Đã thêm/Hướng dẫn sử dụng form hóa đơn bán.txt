@@ -1,0 +1,6 @@
+Bắt đầu chạy chương trình thì thông tin hóa đơn bán và chi tiết hóa đơn bán sẽ được hiển thị datagridview
+Ở phần hóa đơn bán :
+Cách dùng nút thêm:điền thông tin vào các text box rồi ấn nút Thêm 
+Cách dùng nút sửa: ấn vào 1 bản ghi trên datagridview thì dữ liệu sẽ đổ lên các text box, thì mình nhấn vào textbox mình muốn sửa điền lại dữ liệu rồi ấn nút Sửa
+Cách dùng nút xóa: ấn vào 1 bản ghi mình muốn xóa trên datagridview thì dữ liệu sẽ đổ lên các text box rồi ấn nút Xóa  
+Tương tự cho phần Chi tiết hóa đơn bán

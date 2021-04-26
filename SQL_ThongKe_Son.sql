@@ -5,14 +5,10 @@ begin
 declare @soluong int, @giatien bigint, @tongTien bigint
 select @soluong=SoLuong, @giatien= GiaBan
 from CTHDBan cthdb, MatHang mh
-where mh.MaHang=cthdb.MaHang
+where mh.MaHang=cthdb.MaHang and cthdb.MaHang=@MaHang and cthdb.MaHD=@maHD
 set @tongTien=@soluong * @giatien
 return @tongTien
 end
-go
-
-select dbo.thongKeBan(1,1) as TongTien
-
 go
 
 Create or alter function thongKeTheoNgay( @NgayBD date, @NgayKT date)
@@ -24,6 +20,3 @@ from CTHDBan ctb, HDBan hdb
 where hdb.NgayMua between @NgayBD and @NgayKT
 )
 go
-
-select *
-from dbo.thongKeTheoNgay('01/01/2020','01/01/2022')

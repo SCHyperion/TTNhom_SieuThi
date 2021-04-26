@@ -106,6 +106,7 @@ namespace QuanLySieuThi
                     dataGridView2.DataSource = InstallQuery("select mahd, sum(dbo.thongKeBan(mahang,mahd)) as TongTien from CTHDBan Group by mahd");
                     textBoxTong.DataBindings.Clear();
                     textBoxTong.Text = dataGridView2.Rows[0].Cells[1].Value.ToString() + " vnđ";
+                    for(int i=0;i< )
                 }
                 catch (Exception ex)
                 {

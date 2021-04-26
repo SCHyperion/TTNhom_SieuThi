@@ -17,8 +17,9 @@
 		Chức năng hiển thị danh sách thông tin về hóa đơn (bán + nhập)
 	4.2.	Doanh thu bán được trong (1.1 ngày 2.giữa 2 thời gian)				5.(Sơn)
 
-5. Chức năng về hóa đơn:									6.(Quang Anh)
-	+ Tạo ra hóa đơn nhập + bán
-	+ Dùng hóa đơn nhập bán để cập nhật số hàng tồn
+5. Chức năng về hóa đơn:									
+	5.1 Tạo ra hóa đơn bán       6. Quang Anh
+	5.2 Tạo ra hóa đơn nhập      7. Thịnh
+	    
 
 6. Hướng dẫn sử dụng (Thịnh làm nha)

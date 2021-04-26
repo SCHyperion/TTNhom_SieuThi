@@ -1,0 +1,12 @@
+﻿
+Hướng dẫn sử dụng chức năng quản lý nhân viên
+
+Nút Xem : hiển thị thông tin nhân viên
+
+Nút Thêm: Thêm thông tin nhân viên dựa vào dữ liệu thêm trên bảng dữ liệu hoặc dựa vào Mã Nhân Viên trong textbox Mã Nhân Viên
+
+Nút Xóa: Xóa nhân viên dựa vào dữ nhân viên đã chọn trên bảng nhân viên
+
+Nút Sửa: Sửa thông tin nhân viên trực tiếp trên bảng dữ liệu hoặc sửa dựa vào Mã Nhân Viên trong text box mã nhân viên
+
+Nút Tìm Kiếm: có 2 lựa chọn tìm kiếm nhân viên theo mã nhân viên hoặc theo tên nhân viên 
