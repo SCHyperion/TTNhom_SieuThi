@@ -44,7 +44,7 @@ namespace QuanLySieuThi
             DataTable data = new DataTable();
             try
             {
-                using (SqlConnection con=new SqlConnection(connectString))
+                using (SqlConnection con = new SqlConnection(connectString))
                 {
                     con.Open();
                     SqlCommand command = new SqlCommand(query, con);
