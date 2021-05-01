@@ -13,8 +13,8 @@ namespace QuanLySieuThi
 {
     public partial class FormDoanhThuBan : Form
     {
-       //private string connectString = @"Data Source=localhost;Initial Catalog=QLSieuThi;Integrated Security=True";
-        private string connectString = ConnectionString.str;
+        private string connectString = @"Data Source=localhost;Initial Catalog=QLSieuThi;Integrated Security=True";
+        //private string connectString = ConnectionString.str;
         public FormDoanhThuBan()
         {
             InitializeComponent();
