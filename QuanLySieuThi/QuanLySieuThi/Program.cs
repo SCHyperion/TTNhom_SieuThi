@@ -21,9 +21,9 @@ namespace QuanLySieuThi
             //Application.Run(new frmHoaDon());
             //Application.Run(new MainForm(1, "1"));
             //Application.Run(new Test());
-            //Application.Run(new Login());
+            Application.Run(new Login());
             //Application.Run(new frmHoaDon());
-            Application.Run(new FormDoanhThuBan());
+            //Application.Run(new FormDoanhThuBan());
         }
     }
 }
