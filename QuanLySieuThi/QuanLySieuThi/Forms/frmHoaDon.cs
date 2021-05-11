@@ -114,11 +114,11 @@ namespace QuanLySieuThi
                 table1.Load(read1);
                 HDBan.DataSource = table1;
 
-                SqlCommand cmd2 = new SqlCommand("SELECT * FROM CTHDBan", connection);
+               /* SqlCommand cmd2 = new SqlCommand("SELECT * FROM CTHDBan", connection);
                 SqlDataReader read2 = cmd2.ExecuteReader();
                 DataTable table2 = new DataTable();
                 table2.Load(read2);
-                CTHDBan.DataSource = table2;
+                CTHDBan.DataSource = table2;*/
 
                 SqlCommand cmd3 = new SqlCommand("SELECT * FROM HDNhap", connection);
                 SqlDataReader read3 = cmd3.ExecuteReader();
@@ -146,6 +146,23 @@ namespace QuanLySieuThi
             txtMaHDBan.Text = HDBan.Rows[i].Cells[0].Value.ToString();
             txtMaKH.Text = HDBan.Rows[i].Cells[1].Value.ToString();
             dateTimeNgayMua.Text = HDBan.Rows[i].Cells[2].Value.ToString();
+            mahd = Convert.ToInt16(txtMaHDBan.Text);
+            try
+            {
+                if (connection.State == ConnectionState.Closed)
+                    connection.Open();
+                SqlCommand cmd2 = new SqlCommand("SELECT * FROM CTHDBan where MaHD = " + mahd.ToString() + "", connection);
+                SqlDataReader read2 = cmd2.ExecuteReader();
+                DataTable table2 = new DataTable();
+                table2.Load(read2);
+                CTHDBan.DataSource = table2;
+                if (connection.State == ConnectionState.Open)
+                    connection.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void CTHDBan_CellClick(object sender, DataGridViewCellEventArgs e)
