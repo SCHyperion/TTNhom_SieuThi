@@ -236,3 +236,28 @@ C:\Users\huyho\OneDrive\Desktop\QLST\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\
 C:\Users\huyho\OneDrive\Desktop\QLST\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.csproj.CopyComplete
 C:\Users\huyho\OneDrive\Desktop\QLST\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.exe
 C:\Users\huyho\OneDrive\Desktop\QLST\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.pdb
+D:\Kì 2 năm 3\Thức tập nhóm\BaiTT3\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\bin\Debug\MetroFramework.Design.dll
+D:\Kì 2 năm 3\Thức tập nhóm\BaiTT3\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\bin\Debug\MetroFramework.dll
+D:\Kì 2 năm 3\Thức tập nhóm\BaiTT3\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\bin\Debug\MetroFramework.Fonts.dll
+D:\Kì 2 năm 3\Thức tập nhóm\BaiTT3\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\bin\Debug\MetroSet UI.dll
+D:\Kì 2 năm 3\Thức tập nhóm\BaiTT3\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.frmHDBan1.resources
+D:\Kì 2 năm 3\Thức tập nhóm\BaiTT3\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.Form_Khachhang.resources
+D:\Kì 2 năm 3\Thức tập nhóm\BaiTT3\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.frmHoaDon.resources
+D:\Kì 2 năm 3\Thức tập nhóm\BaiTT3\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.frmThongKe.resources
+D:\Kì 2 năm 3\Thức tập nhóm\BaiTT3\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.frm_MatHang.resources
+D:\Kì 2 năm 3\Thức tập nhóm\BaiTT3\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.Forms.MainForm.resources
+D:\Kì 2 năm 3\Thức tập nhóm\BaiTT3\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.Forms.MainMenuForm.resources
+D:\Kì 2 năm 3\Thức tập nhóm\BaiTT3\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.TaiKhoan.resources
+D:\Kì 2 năm 3\Thức tập nhóm\BaiTT3\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.Test.resources
+D:\Kì 2 năm 3\Thức tập nhóm\BaiTT3\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.User_Controls.HDNhap.resources
+D:\Kì 2 năm 3\Thức tập nhóm\BaiTT3\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.User_Controls.TKDoanhThu.resources
+D:\Kì 2 năm 3\Thức tập nhóm\BaiTT3\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.User_Controls.TKHoaDon.resources
+D:\Kì 2 năm 3\Thức tập nhóm\BaiTT3\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.User_Controls.TKSoSP.resources
+D:\Kì 2 năm 3\Thức tập nhóm\BaiTT3\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.User_Controls.uc_HeThong.resources
+D:\Kì 2 năm 3\Thức tập nhóm\BaiTT3\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.User_Controls.uc_KhachHang.resources
+D:\Kì 2 năm 3\Thức tập nhóm\BaiTT3\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.User_Controls.uc_NhanVien.resources
+D:\Kì 2 năm 3\Thức tập nhóm\BaiTT3\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.User_Controls.uc_SanPham.resources
+D:\Kì 2 năm 3\Thức tập nhóm\BaiTT3\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.User_Controls.uc_TaiKhoan.resources
+D:\Kì 2 năm 3\Thức tập nhóm\BaiTT3\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.User_Controls.uc_TaoHoaDon.resources
+D:\Kì 2 năm 3\Thức tập nhóm\BaiTT3\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.User_Controls.uc_ThongKe.resources
+D:\Kì 2 năm 3\Thức tập nhóm\BaiTT3\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.csproj.CopyComplete

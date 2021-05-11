@@ -39,7 +39,7 @@ namespace QuanLySieuThi.User_Controls
 
         private void button_HDBan_Click(object sender, EventArgs e)
         {
-            frmHDBan1 f = new frmHDBan1();
+            frmHoaDon f = new frmHoaDon();
             f.Show();
         }
     }

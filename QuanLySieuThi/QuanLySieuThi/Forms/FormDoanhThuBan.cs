@@ -44,7 +44,7 @@ namespace QuanLySieuThi
             DataTable data = new DataTable();
             try
             {
-                using (SqlConnection con=new SqlConnection(connectString))
+                using (SqlConnection con = new SqlConnection(connectString))
                 {
                     con.Open();
                     SqlCommand command = new SqlCommand(query, con);
@@ -104,8 +104,19 @@ namespace QuanLySieuThi
                 {
                     dataGridView1.DataSource = InstallQuery("Select * from dbo.thongKeTheoNgay('" + textBoxNgayBD.Text + "','" + textBoxNgayKT.Text + "')");
                     dataGridView2.DataSource = InstallQuery("select mahd, sum(dbo.thongKeBan(mahang,mahd)) as TongTien from CTHDBan Group by mahd");
-                    textBoxTong.DataBindings.Clear();
-                    textBoxTong.Text = dataGridView2.Rows[0].Cells[1].Value.ToString() + " vnđ";
+                    DataTable data = InstallQuery("Select * from dbo.thongKeTheoNgay('" + textBoxNgayBD.Text + "','" + textBoxNgayKT.Text + "')");
+                    textBoxTong.Clear();
+                    //textBoxTong.Text = dataGridView2.Rows[0].Cells[1].Value.ToString() + " vnđ";
+                    double total = 0;
+                    if(dataGridView1.RowCount>1)
+                    {
+                        foreach (DataRow item in data.Rows)
+                        {
+                            total += Convert.ToDouble(item["TongTien"].ToString());
+                        }
+                        textBoxTong.Text = total.ToString() + " vnđ";
+                    }    
+                   
                 }
                 catch (Exception ex)
                 {
