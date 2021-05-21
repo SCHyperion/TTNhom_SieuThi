@@ -150,6 +150,12 @@
     <Compile Include="Test.Designer.cs">
       <DependentUpon>Test.cs</DependentUpon>
     </Compile>
+    <Compile Include="User Controls\uc_HDBan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Controls\uc_HDBan.Designer.cs">
+      <DependentUpon>uc_HDBan.cs</DependentUpon>
+    </Compile>
     <Compile Include="User Controls\HDNhap.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -267,6 +273,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Test.resx">
       <DependentUpon>Test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Controls\uc_HDBan.resx">
+      <DependentUpon>uc_HDBan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="User Controls\HDNhap.resx">
       <DependentUpon>HDNhap.cs</DependentUpon>

@@ -27,6 +27,7 @@ namespace QuanLySieuThi.User_Controls
         public uc_TaoHoaDon()
         {
             InitializeComponent();
+            loadButton();
         }
 
         private void button_HDNhap_Click(object sender, EventArgs e)
@@ -39,8 +40,10 @@ namespace QuanLySieuThi.User_Controls
 
         private void button_HDBan_Click(object sender, EventArgs e)
         {
-            frmHoaDon f = new frmHoaDon();
-            f.Show();
+            uc_HDBan uc = new uc_HDBan();
+            panel_Main.Controls.Clear();
+            panel_Main.Controls.Add(uc);
+            uc.Dock = DockStyle.Fill;
         }
     }
 }

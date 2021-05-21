@@ -261,3 +261,4 @@ D:\Kì 2 năm 3\Thức tập nhóm\BaiTT3\TTNhom_SieuThi\QuanLySieuThi\QuanLySie
 D:\Kì 2 năm 3\Thức tập nhóm\BaiTT3\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.User_Controls.uc_TaoHoaDon.resources
 D:\Kì 2 năm 3\Thức tập nhóm\BaiTT3\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.User_Controls.uc_ThongKe.resources
 D:\Kì 2 năm 3\Thức tập nhóm\BaiTT3\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.csproj.CopyComplete
+D:\TTNhom\TTNhom_SieuThi\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.User_Controls.uc_HDBan.resources
