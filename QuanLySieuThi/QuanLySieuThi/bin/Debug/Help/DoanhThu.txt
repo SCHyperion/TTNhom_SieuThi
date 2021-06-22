@@ -1,6 +1,6 @@
 ﻿
--	Form sẽ thống kê doanh thu bán hàng bằng thông tin ngày bán hàng bắt đầu và ngày bán hàng kết thúc.
+Chức năng sẽ thống kê doanh thu bán hàng bằng thông tin ngày bán hàng bắt đầu và ngày bán hàng kết thúc.
 
--	Bảng chi tiết sẽ hiện ra khi bạn chọn một dòng thông tin và muốn xem thông tin củ thể hơn.
+Bảng chi tiết sẽ hiện ra khi bạn chọn một dòng thông tin và muốn xem thông tin củ thể hơn.
 
--	Ngày bắt đầu không được lớn hơn ngày kết thúc.
+Ngày bắt đầu không được lớn hơn ngày kết thúc.

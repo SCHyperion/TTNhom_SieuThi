@@ -1,0 +1,12 @@
+﻿
+* Tạo hóa đơn bán hàng:
+
+Trong danh sách bên trái, người dùng có thể xem các hóa đơn bán hàng đang có và chi tiết của chúng.
+
+Để tạo ra hóa đơn bán, người dùng cần trước tiên tạo ra 1 hóa đơn rỗng bằng cách điền đầy đủ thông tin ở bên dưới danh sách bên trái, sau đó bấm nút "Thêm".
+Người dùng cũng có thể sửa thông tin của hóa đơn đó bằng cách điền mã hóa đơn đó và thông tin mới, sau đó bấm nút "Sửa".
+Nếu người dùng cần xóa 1 hóa đơn, chọn 1 hóa đơn trong danh sách bên trái và bấm nút "Xóa".
+
+Để thêm sản phẩm vào hóa đơn, người dùng cần điền đầy đủ thông tin ở dưới danh sách bên phải và bấm nút "Thêm".
+Người dùng có thể sửa thông tin của sản phẩm trong hóa đơn bằng cách điền mã hóa đơn cần sửa và thông tin mới, sau đó bấm nút "Sửa".
+Để xóa 1 sản phẩm khỏi hóa đơn, chọn 1 sản phẩm trong danh sách bên phải và bấm nút "Xóa".

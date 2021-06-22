@@ -1,0 +1,12 @@
+﻿
+Ở mục tạo hóa đơn có 2 chức năng:
+
+* Tạo hóa đơn nhập hàng:
+
+Người dùng muốn thêm sản phẩm vào hóa đơn nhập hàng có thể xem ở danh sách "Sản phẩm hiện có", chọn 1 sản phẩm và bấm nút "Thêm sản phẩm" thì sản phẩm đó sẽ được đưa vào danh sách hóa đơn hiện tại.
+
+Nếu người dùng nhập lỡ thêm nhầm sản phẩm vào hóa đơn, bấm nút "Xóa" sẽ xóa toàn bộ sản phẩm đang có trong hóa đơn hiện tại.
+
+Khi người dùng đã thêm sản phẩm vào hóa đơn xong, người dùng cần chọn 1 mã hóa đơn mới từ danh sách "Hóa đơn nhập hiện có" và điền vào ô "Mã hóa đơn".
+
+Sau khi đã có đầy đủ thông tin trên, người dùng chỉ cần bấm nút "Xác nhận" và hóa đơn đó sẽ được ghi nhận vào cơ sở dữ liệu.

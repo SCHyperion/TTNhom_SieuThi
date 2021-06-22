@@ -129,13 +129,19 @@ namespace QuanLySieuThi
                         richtextbox_Display.ReadOnly = true;
                         break;
                     }
-                case "Tạo hóa đơn":
+                case "Tạo hóa đơn":                     // done
                     {
                         richtextbox_Display.ReadOnly = false;
-                        richtextbox_Display.Text = File.ReadAllText(@"Help\test2.txt");
-                        Clipboard.SetImage(Image.FromFile(@"Help\test2.jpg"));
+                        richtextbox_Display.Text = File.ReadAllText(@"Help\TaoHDNhap.txt");
+                        Clipboard.SetImage(Image.FromFile(@"Help\TaoHDNhap.jpg"));
                         richtextbox_Display.AppendText("\n");
                         richtextbox_Display.Paste();
+                        richtextbox_Display.AppendText("\n");
+                        richtextbox_Display.AppendText(File.ReadAllText(@"Help\TaoHDBan.txt"));
+                        Clipboard.SetImage(Image.FromFile(@"Help\TaoHDBan.jpg"));
+                        richtextbox_Display.AppendText("\n");
+                        richtextbox_Display.Paste();
+                        richtextbox_Display.AppendText("\n");
                         richtextbox_Display.ReadOnly = true;
                         break;
                     }
